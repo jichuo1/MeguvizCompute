@@ -1,0 +1,4 @@
+[1/4] Building C object CMakeFiles\public_c.dir\c_consumer.c.obj
+[2/4] Building C object CMakeFiles\statistics.dir\tensor_statistics.c.obj
+[3/4] Linking CXX executable public_c.exe
+[4/4] Linking CXX executable statistics.exe

@@ -1,0 +1,19 @@
+-- Install configuration: "Release"
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/meguviz_compute_core.lib
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/include
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/include/meguviz
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/include/meguviz/compute.h
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/include/meguviz/compute_android.h
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/include/meguviz/kernels.h
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/cmake/MeguvizCompute/MeguvizComputeTargets.cmake
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/cmake/MeguvizCompute/MeguvizComputeTargets-release.cmake
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/cmake/MeguvizCompute/MeguvizComputeConfig.cmake
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/cmake/MeguvizCompute/MeguvizComputeConfigVersion.cmake
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/lib/cmake/MeguvizCompute/build-info.json
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/NOTICE.md
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/LICENSE
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/SBOM.json
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/ncnn.lock.json
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/shaderpack
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/shaderpack/shaderpack.schema.json
+-- Installing: D:\MeguvizPack\MeguvizCompute\build\install\windows-reference/share/MeguvizCompute/shaderpack/source.lock.json

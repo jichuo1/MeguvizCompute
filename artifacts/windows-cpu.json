@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "kind": "development-static-sdk",
+  "release_qualified": false,
+  "profile": "windows-cpu",
+  "build": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "build_fingerprint": "9b011d22a55fd592bac136cd20c8a56f496d5f57367a4e18ebf04486891e5b66",
+    "private_sdk_fingerprint": "c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa",
+    "ncnn_commit": "7e36d25cb153092ba87a60530455c7376fedf452",
+    "glslang_commit": "780b6a209132dc74e99458f62ebe5fa7e57c41cf",
+    "build_options": "ncnn=7e36d25cb153092ba87a60530455c7376fedf452;glslang=780b6a209132dc74e99458f62ebe5fa7e57c41cf;patches=none;vulkan=OFF;openmp=OFF;stdio=ON;string=ON;cxx=17;compiler=MSVC-19.51.36247.0;target=Windows-AMD64;abi=;api=;ndk=;stl=;ptr=8;config=Release;sdk=0.1.0;NCNN_ASAN=OFF;NCNN_AVX=OFF;NCNN_AVX2=OFF;NCNN_AVX512=OFF;NCNN_BATCH=ON;NCNN_BENCHMARK=OFF;NCNN_BF16=ON;NCNN_BUILD_BENCHMARK=OFF;NCNN_BUILD_EXAMPLES=OFF;NCNN_BUILD_TESTS=OFF;NCNN_BUILD_TOOLS=OFF;NCNN_BUILD_WITH_STATIC_CRT=ON;NCNN_CMAKE_VERBOSE=OFF;NCNN_COMPILER_SUPPORT_X86_AVX=1;NCNN_COMPILER_SUPPORT_X86_AVX2=1;NCNN_COMPILER_SUPPORT_X86_AVX512=1;NCNN_COMPILER_SUPPORT_X86_AVX512_BF16=1;NCNN_COMPILER_SUPPORT_X86_AVX512_FP16=1;NCNN_COMPILER_SUPPORT_X86_AVX512_VNNI=1;NCNN_COMPILER_SUPPORT_X86_AVX_NE_CONVERT=1;NCNN_COMPILER_SUPPORT_X86_AVX_VNNI=1;NCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT16=1;NCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT8=1;NCNN_COMPILER_SUPPORT_X86_F16C=1;NCNN_COMPILER_SUPPORT_X86_FMA=1;NCNN_COMPILER_SUPPORT_X86_FMA4=1;NCNN_COMPILER_SUPPORT_X86_XOP=1;NCNN_COVERAGE=OFF;NCNN_C_API=ON;NCNN_DISABLE_EXCEPTION=OFF;NCNN_DISABLE_PIC=OFF;NCNN_DISABLE_RTTI=OFF;NCNN_ENABLE_LTO=OFF;NCNN_F16C=OFF;NCNN_FMA=OFF;NCNN_FORCE_INLINE=ON;NCNN_INSTALL_SDK=ON;NCNN_INT8=ON;NCNN_OPENMP=OFF;NCNN_PIXEL=ON;NCNN_PIXEL_AFFINE=ON;NCNN_PIXEL_DRAWING=ON;NCNN_PIXEL_ROTATE=ON;NCNN_PLATFORM_API=ON;NCNN_PYTHON=OFF;NCNN_RUNTIME_CPU=OFF;NCNN_SHARED_LIB=OFF;NCNN_SIMPLEMATH=OFF;NCNN_SIMPLEOCV=OFF;NCNN_SIMPLEOMP=OFF;NCNN_SIMPLESTL=OFF;NCNN_SIMPLEVK=ON;NCNN_SSE2=ON;NCNN_STDIO=ON;NCNN_STRING=ON;NCNN_SYSTEM_GLSLANG=OFF;NCNN_THREADS=ON;NCNN_VALIDATION=ON;NCNN_VERSION=20261020;NCNN_VULKAN=OFF;NCNN_WEIGHT_QUANT=ON;NCNN_WINXP=OFF;NCNN_XOP=OFF;with_ncnn=ON;compiler_sha256=c9327f10974a1fa15f503ffd8b52c2b0b20735aa6c56d41134f77ff96608399b;cflags=/DWIN32 /D_WINDOWS;cxxflags=/DWIN32 /D_WINDOWS /EHsc;release_cxxflags=/O2 /Ob2 /DNDEBUG;private_headers=2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42-8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf;ncnn_platform_hash=a8087a62a199095d18f22667733c4f67917bc0b4af9b687aa92d32bb6b615b2f",
+    "runtime_compiler_policy": "retained in Vulkan builds; no-runtime profile unsupported",
+    "device_qualification": "NOT_RUN"
+  },
+  "files": [
+    {
+      "path": "include/meguviz/compute.h",
+      "size": 8879,
+      "sha256": "7091507589a1f16b473d6832c67436e6a323c87d2a2c38338442ea04abb60c60"
+    },
+    {
+      "path": "include/meguviz/compute_android.h",
+      "size": 1194,
+      "sha256": "86c1646eb2f6220af01fc521a8b05e4c0fb088ab37a2df8dc99d11de0128d2b4"
+    },
+    {
+      "path": "include/meguviz/kernels.h",
+      "size": 1329,
+      "sha256": "f4526da6a6885fc97a14d3274518ed06467b77992f08cd75cd0341ea51f8e8b0"
+    },
+    {
+      "path": "include/meguviz-private/meguviz/backend_ncnn_sdk.hpp",
+      "size": 746,
+      "sha256": "2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42"
+    },
+    {
+      "path": "include/meguviz-private/meguviz/compute_job.h",
+      "size": 1222,
+      "sha256": "8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf"
+    },
+    {
+      "path": "include/ncnn/allocator.h",
+      "size": 13212,
+      "sha256": "4eedf70da9e9018f283c5c10f665e68790ee6ca3ae5c09c17c7abb8542583c13"
+    },
+    {
+      "path": "include/ncnn/benchmark.h",
+      "size": 664,
+      "sha256": "fa5e32fd6a61499801485667fdba8bb0aa0bbbe8d34e6315ab69f5c198231cd9"
+    },
+    {
+      "path": "include/ncnn/blob.h",
+      "size": 562,
+      "sha256": "d367b89c96f19a2e14ae2e021ad511f89603cdc6524bb9a25599bb5effba3ab9"
+    },
+    {
+      "path": "include/ncnn/c_api.h",
+      "size": 25502,
+      "sha256": "5b9d536df035fa9e458703b72115fb073b66c03a2519ec5c2050380aaa4b9e30"
+    },
+    {
+      "path": "include/ncnn/command.h",
+      "size": 3737,
+      "sha256": "d859bf0759e75bf8b031bcc834eff84baa17f37e2a0f073dc8c5d17062db2f26"
+    },
+    {
+      "path": "include/ncnn/cpu.h",
+      "size": 5625,
+      "sha256": "7ac3a6fa221092366ae2c4529060082736f89a9eb4a29ba26581cfd9c4b7b086"
+    },
+    {
+      "path": "include/ncnn/datareader.h",
+      "size": 3283,
+      "sha256": "b1206ea1bc057b7a4f4b6ce75890d9846a77f607eb1d3c263a3bed4718ac14a1"
+    },
+    {
+      "path": "include/ncnn/expression.h",
+      "size": 806,
+      "sha256": "919bf4dd8bdfe58a0ac5896c93b46433a2e552a22888268e6d0a9748dd696c8c"
+    },
+    {
+      "path": "include/ncnn/gpu.h",
+      "size": 28380,
+      "sha256": "65d76235512b1d78a5dedf2c5b09adb36e0486d48642a4b84cc89b5705da3071"
+    },
+    {
+      "path": "include/ncnn/layer.h",
+      "size": 6087,
+      "sha256": "3596a28cf312005707916385168a817bc291b6602fda192b2fdd465fba0e6e9d"
+    },
+    {
+      "path": "include/ncnn/layer_shader_type.h",
+      "size": 349,
+      "sha256": "42242a46ce7daba28767b3ce293e22d4e79553f5b45ce079ac7a26080e42780e"
+    },
+    {
+      "path": "include/ncnn/layer_shader_type_enum.h",
+      "size": 94,
+      "sha256": "906184110817431b2406ac1be9e93a6db4b82d32aa74ac644069585e77aed5d7"
+    },
+    {
+      "path": "include/ncnn/layer_type.h",
+      "size": 330,
+      "sha256": "75cb00100bbfe2a502ff780711600a2abc6c4d5043eb4eabbb86f07b13efbd98"
+    },
+    {
+      "path": "include/ncnn/layer_type_enum.h",
+      "size": 1911,
+      "sha256": "05d55b13c816f3289ee8e804181f484d652987751f8b85819bcc32064053ef85"
+    },
+    {
+      "path": "include/ncnn/mat.h",
+      "size": 91752,
+      "sha256": "500b3ab018fcbed5860331975a1f85926ee426e5f53bbc64ff045ddfb370a42d"
+    },
+    {
+      "path": "include/ncnn/modelbin.h",
+      "size": 1779,
+      "sha256": "e4b9b7cbe702a85c7a4b952f0f456b89b69eea17a3049b52cca8e71a914d71e3"
+    },
+    {
+      "path": "include/ncnn/ncnn_export.h",
+      "size": 949,
+      "sha256": "11c4a50de8e76cddd6eeb47e6e74d88162a3f63d07329bc744ce5aba28889449"
+    },
+    {
+      "path": "include/ncnn/net.h",
+      "size": 7872,
+      "sha256": "d8d3f69b7eeb9a8ec24ab8201d92a8d24ba08a2eb4c4b6880d884985ac63862b"
+    },
+    {
+      "path": "include/ncnn/option.h",
+      "size": 4539,
+      "sha256": "534fd97cecd31b4aa9066d99acdb5c3ee25479003381bc685aa28b368c05189e"
+    },
+    {
+      "path": "include/ncnn/paramdict.h",
+      "size": 1602,
+      "sha256": "57a4d90ea8c4e12ba7d810f7078e6b0a9b3e332f4f5c5d1f7679d3ec67564588"
+    },
+    {
+      "path": "include/ncnn/pipeline.h",
+      "size": 2988,
+      "sha256": "a0e2f2a417c5f283ade6907d1cef4370938271695de974988044950aaf488dd1"
+    },
+    {
+      "path": "include/ncnn/pipelinecache.h",
+      "size": 3222,
+      "sha256": "1013f4c6692dc9bfdea1063e28494efd5feffddbc76911be580948a0536abebf"
+    },
+    {
+      "path": "include/ncnn/platform.h",
+      "size": 13000,
+      "sha256": "a8087a62a199095d18f22667733c4f67917bc0b4af9b687aa92d32bb6b615b2f"
+    },
+    {
+      "path": "include/ncnn/simplemath.h",
+      "size": 2862,
+      "sha256": "e45b5676fd49dc87b76a979a3efddd7d31ded15ec7a30d65fe32ed4d9e1e43ba"
+    },
+    {
+      "path": "include/ncnn/simpleocv.h",
+      "size": 9868,
+      "sha256": "51f6838eb1e6823f2a6b6cb2f5f4f2536011dbd7c9c6fcfa7e9a5f3a940a6199"
+    },
+    {
+      "path": "include/ncnn/simpleomp.h",
+      "size": 838,
+      "sha256": "61756b512872a3ab10b35ba978dd5ec82cd30c6ba7e0e7327d4f6ef87e5fa3bf"
+    },
+    {
+      "path": "include/ncnn/simplestl.h",
+      "size": 12139,
+      "sha256": "1ae30ad95dcf3c3a7fa3a3bffa2e54ca2f7cca9e1ee381cd51d6806e71d2508d"
+    },
+    {
+      "path": "include/ncnn/simplevk.h",
+      "size": 90967,
+      "sha256": "5a996b816bb753d970f146e5516b76d8f7c10d080cec9f9042c32352dedd709a"
+    },
+    {
+      "path": "include/ncnn/vulkan_header_fix.h",
+      "size": 97243,
+      "sha256": "6d959e94c39f444271ce0ccbf42c56c31eef9b3a90b8db121cb797137da9f766"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/build-info.json",
+      "size": 2615,
+      "sha256": "72555d452ea2ad9cf639c51c138985fd8e40b097d60496414b54f865628e8d72"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfig.cmake",
+      "size": 1896,
+      "sha256": "5f3c31db5fa12b5533fa4ab643af72edf5278f6192bb47e35cf4d9a507c0a478"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfigVersion.cmake",
+      "size": 2827,
+      "sha256": "c626df80d51f26a450ee36ae47e466121b32f0a9a98894687c0b7edc332170c4"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets-release.cmake",
+      "size": 918,
+      "sha256": "5b4d60522c03e87cbb872631108306d3bbdd4cd3864f935c66eea1ac1634fe09"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets.cmake",
+      "size": 5892,
+      "sha256": "2adcc755e1b94e4e24fc14b499022ec6ecf6431d363758e6314c53fb6c441bdc"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnn-release.cmake",
+      "size": 806,
+      "sha256": "23e6726b7b0390f63d7a42560996f3bbf73c122f9c5f7424ff69d280ee7d728f"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnn.cmake",
+      "size": 4272,
+      "sha256": "2f85ca9cb15b49cf5a83b7e93dc10f394dfca3eb8ea44873c6d373fcf33f2aa2"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnnConfig.cmake",
+      "size": 1659,
+      "sha256": "d6b5a656d31149a2cc122d40a35092da4d8932421a2460d2ce0da7b0a4f58e26"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnnConfigVersion.cmake",
+      "size": 1907,
+      "sha256": "e1dc476d67381bc8f2e4006c77f804d45adec612ea5bf9d8270b9f44f1eec198"
+    },
+    {
+      "path": "lib/meguviz_compute_core.lib",
+      "size": 600372,
+      "sha256": "b1d98b5a6280754ae588cf3e2fd5dd30f2a8bc3bbc50592035fbeeb97ebed4df"
+    },
+    {
+      "path": "lib/ncnn.lib",
+      "size": 12794878,
+      "sha256": "bcdcccff78c0d98428a4f319d58e250027a39a1b0367edd26d3da8716a0df86c"
+    },
+    {
+      "path": "lib/pkgconfig/ncnn.pc",
+      "size": 329,
+      "sha256": "7b976fb930d7c4cde40e312a8829a3d0b2d0dde2e67c6a97c07131116aef40b8"
+    },
+    {
+      "path": "share/MeguvizCompute/LICENSE",
+      "size": 1071,
+      "sha256": "de0ff48d4a5e2df2299de5c3233091567f5112dcc48c7593e98d77db543591a1"
+    },
+    {
+      "path": "share/MeguvizCompute/licenses/ncnn-LICENSE.txt",
+      "size": 6513,
+      "sha256": "3a066e39806976fe274a042929523c68821c54bcf73369ed61aae2717edd54e8"
+    },
+    {
+      "path": "share/MeguvizCompute/ncnn.lock.json",
+      "size": 454,
+      "sha256": "085e0bf62860d25c7becc808e4e445269f264e8fc511467fc986d0e7e172c5db"
+    },
+    {
+      "path": "share/MeguvizCompute/NOTICE.md",
+      "size": 425,
+      "sha256": "38a0d81b27a11d909f9a42ffc849b17815ba86344c10bef79e7811738527d44e"
+    },
+    {
+      "path": "share/MeguvizCompute/SBOM.json",
+      "size": 744,
+      "sha256": "d2683a39f2b75826ec4200947f1aa7ca98e343c617451bb593d75cddf66d4e1b"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/shaderpack.schema.json",
+      "size": 4154,
+      "sha256": "e18d92e7ef67961412e48c4c7774ad9fa4c3977855b1db9e81051b89691a83df"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/source.lock.json",
+      "size": 202,
+      "sha256": "38221d4c4883ff5a4949debe84718cbb19989da8c75443ba6938729efbaf5284"
+    }
+  ],
+  "evidence": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100",
+  "test_result": "PASS",
+  "gpu_result": "INCONCLUSIVE - no device execution"
+}

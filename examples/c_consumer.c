@@ -1,0 +1,53 @@
+#include "consumer_common.h"
+int main(void)
+{
+    MgcRuntime *r;
+    MgcDomain *d;
+    MgcSession *s;
+    MgcResource *a, *b;
+    MgcLease *write, *in, *out;
+    void *ptr;
+    uint64_t bytes;
+    MgcTicket *ticket;
+    MgcSubmitDesc job = {0};
+    MgcCompletion done = {0};
+    const char expected[] = "Meguviz independent C consumer";
+    CHECK(start_runtime(&r, &d, &s) == MGC_SUCCESS);
+    CHECK(make_resource(d, 1, sizeof(expected), MGC_FORMAT_BYTES, &a) == 0);
+    CHECK(make_resource(d, 2, sizeof(expected), MGC_FORMAT_BYTES, &b) == 0);
+    CHECK(make_lease(a, 1, sizeof(expected), MGC_ACCESS_WRITE, &write) == 0);
+    CHECK(mgc_lease_map(write, &ptr, &bytes) == 0);
+    memcpy(ptr, expected, sizeof(expected));
+    CHECK(mgc_lease_unmap(write) == 0);
+    mgc_lease_release(write);
+    CHECK(make_lease(a, 1, sizeof(expected), MGC_ACCESS_READ, &in) == 0);
+    CHECK(make_lease(b, 1, sizeof(expected), MGC_ACCESS_WRITE, &out) == 0);
+    job.header = (MgcHeader)MGC_HEADER_INIT(MgcSubmitDesc);
+    job.input = in;
+    job.output = out;
+    job.operation = MGC_OPERATION_COPY;
+    job.byte_count = sizeof(expected);
+    job.request_id = 17;
+    mgc_lease_retain(in);
+    mgc_lease_retain(out);
+    CHECK(mgc_submit(s, &job, &ticket) == MGC_ACCEPTED);
+    CHECK(mgc_session_drain(s, 1000000000) == 0);
+    done.header = (MgcHeader)MGC_HEADER_INIT(MgcCompletion);
+    CHECK(mgc_ticket_query(ticket, &done) == 0);
+    CHECK(done.terminal == MGC_TERMINAL_SUCCESS && done.execution_retired && done.host_finalized);
+    CHECK(mgc_session_close(s) == 0);
+    CHECK(mgc_runtime_close(r) == MGC_BUSY);
+    CHECK(mgc_lease_map(out, &ptr, &bytes) == 0);
+    CHECK(!memcmp(ptr, expected, sizeof(expected)));
+    CHECK(mgc_lease_unmap(out) == 0);
+    mgc_ticket_release(ticket);
+    mgc_lease_release(in);
+    mgc_lease_release(out);
+    mgc_resource_release(a);
+    mgc_resource_release(b);
+    mgc_domain_release(d);
+    CHECK(mgc_runtime_close(r) == 0);
+    mgc_runtime_release(r);
+    puts("PASS public C COPY, consumer output survives session close");
+    return 0;
+}

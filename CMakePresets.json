@@ -1,0 +1,122 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 31,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "windows-reference",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/windows-reference",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "MGC_WITH_NCNN": "OFF"
+      }
+    },
+    {
+      "name": "windows-cpu",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/windows-cpu",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "MGC_WITH_NCNN": "ON",
+        "MGC_VULKAN": "OFF",
+        "MGC_NCNN_SOURCE": "${sourceDir}/../dependencies/ncnn",
+        "NCNN_AVX": "OFF",
+        "NCNN_AVX2": "OFF",
+        "NCNN_AVX512": "OFF",
+        "NCNN_XOP": "OFF",
+        "NCNN_FMA": "OFF",
+        "NCNN_F16C": "OFF",
+        "NCNN_RUNTIME_CPU": "OFF"
+      }
+    },
+    {
+      "name": "android-arm64-api27",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/android-arm64-api27",
+      "toolchainFile": "$env{MEGUVIZ_NDK_ROOT}/build/cmake/android.toolchain.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ANDROID_ABI": "arm64-v8a",
+        "ANDROID_PLATFORM": "android-27",
+        "ANDROID_STL": "c++_static",
+        "MGC_WITH_NCNN": "ON",
+        "MGC_VULKAN": "ON",
+        "MGC_NCNN_SOURCE": "${sourceDir}/../dependencies/ncnn",
+        "MGC_GLSLANG_SOURCE": "${sourceDir}/../dependencies/glslang",
+        "MGC_BUILD_TESTS": "ON"
+      }
+    },
+    {
+      "name": "android-v7-api27",
+      "inherits": "android-arm64-api27",
+      "binaryDir": "${sourceDir}/build/android-v7-api27",
+      "cacheVariables": {
+        "ANDROID_ABI": "armeabi-v7a"
+      }
+    },
+    {
+      "name": "linux-cpu",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/linux-cpu",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "MGC_WITH_NCNN": "ON",
+        "MGC_NCNN_SOURCE": "$env{MEGUVIZ_NCNN_SOURCE}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "windows-reference",
+      "configurePreset": "windows-reference",
+      "jobs": 4
+    },
+    {
+      "name": "windows-cpu",
+      "configurePreset": "windows-cpu",
+      "jobs": 4
+    },
+    {
+      "name": "android-arm64-api27",
+      "configurePreset": "android-arm64-api27",
+      "jobs": 4
+    },
+    {
+      "name": "android-v7-api27",
+      "configurePreset": "android-v7-api27",
+      "jobs": 4
+    },
+    {
+      "name": "linux-cpu",
+      "configurePreset": "linux-cpu",
+      "jobs": 4
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "windows-reference",
+      "configurePreset": "windows-reference",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "windows-cpu",
+      "configurePreset": "windows-cpu",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-cpu",
+      "configurePreset": "linux-cpu",
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

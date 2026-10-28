@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "scope": "host_artifact_integrity_and_static_ncnn_abi",
+  "manifest_sha256": "2820fba4af754a72e15cc17fcbb9446acb27660801be051e7c68c251a77f46b4",
+  "variant_key": "6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3",
+  "spirv_sha256": "6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360",
+  "required_caps": [
+    "1"
+  ],
+  "interface": {
+    "spirv_words": 409,
+    "entry_point_found": true,
+    "ncnn_named_abi_checked": true
+  },
+  "runtime_pipeline": "INCONCLUSIVE - not executed",
+  "device_numeric_qualification": "INCONCLUSIVE - not executed"
+}

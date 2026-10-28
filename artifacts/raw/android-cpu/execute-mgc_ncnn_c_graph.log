@@ -1,0 +1,2 @@
+PASS pure C API resource/ticket real ncnn Input/ReLU graph vs scalar oracle
+ncnn graph completion query=0 status=0 terminal=1

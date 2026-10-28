@@ -1,0 +1,128 @@
+[
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizShaderTools\\out\\install\\windows-x86_64-rc1\\bin\\mgst.exe",
+      "compile",
+      "--request",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\source\\request.json",
+      "--out-dir",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\artifacts\\affine"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "stdout": "{\"cause_code\":\"\",\"exit_code\":0,\"operation\":\"compile\",\"phase\":\"compile\",\"result\":{\"effective_options_hash\":\"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\",\"entry_point\":\"main\",\"layout_abi\":{\"descriptor_sets\":[{\"binding\":0,\"block\":{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"values\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"input_data\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"Input\",\"vector_components\":0,\"width\":0},\"count\":1,\"image_format\":0,\"name\":\"input_data\",\"set\":0,\"type\":7},{\"binding\":1,\"block\":{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"values\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"output_data\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"Output\",\"vector_components\":0,\"width\":0},\"count\":1,\"image_format\":0,\"name\":\"output_data\",\"set\":0,\"type\":7}],\"local_size\":[64,1,1],\"push_constants\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"count\",\"offset\":0,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32},{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"scale\",\"offset\":4,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32},{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"bias\",\"offset\":8,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"p\",\"offset\":0,\"padded_size\":12,\"size\":12,\"type_name\":\"parameter\",\"vector_components\":0,\"width\":0}],\"specialization_constants\":[]},\"logical_shader_id\":\"meguviz-compute/affine_f32\",\"reflection_path\":\"reflection.json\",\"reflection_sha256\":\"f946a8174a652db131048bb5266d8d935a5ed062f1231b4ca69203c298100361\",\"required_caps\":[\"1\"],\"spirv_path\":\"shader.spv\",\"spirv_sha256\":\"6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360\",\"spirv_size\":1636,\"target_env\":\"vulkan1.0\",\"variant_key\":\"6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3\"},\"status\":\"PASS\",\"toolchain_lock_hash\":\"e34e0f97360162c31b7c1bc0fe8a726e4e2a8a9b6f253dd3e12ae4186a61d1af\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizShaderTools\\out\\install\\windows-x86_64-rc1\\bin\\mgst.exe",
+      "reproduce",
+      "--request",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\source\\request.json",
+      "--baseline",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\artifacts\\affine",
+      "--work-dir",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\reproduced"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "stdout": "{\"cause_code\":\"\",\"exit_code\":0,\"operation\":\"reproduce\",\"phase\":\"reproduce\",\"result\":{\"reproduced\":true,\"spirv_sha256\":\"6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360\"},\"status\":\"PASS\",\"toolchain_lock_hash\":\"e34e0f97360162c31b7c1bc0fe8a726e4e2a8a9b6f253dd3e12ae4186a61d1af\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "D:\\MeguvizPack\\MeguvizShaderTools\\out\\install\\windows-x86_64-rc1\\bin\\mgst.exe",
+      "pack",
+      "--index",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\index.json",
+      "--artifacts",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\artifacts",
+      "--out-dir",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\pack"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "stdout": "{\"cause_code\":\"\",\"exit_code\":0,\"operation\":\"pack\",\"phase\":\"pack\",\"result\":{\"abi_version\":{\"major\":0,\"minor\":1},\"artifacts\":[{\"effective_options_hash\":\"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\",\"entry_point\":\"main\",\"layout_abi\":{\"descriptor_sets\":[{\"binding\":0,\"block\":{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"values\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"input_data\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"Input\",\"vector_components\":0,\"width\":0},\"count\":1,\"image_format\":0,\"name\":\"input_data\",\"set\":0,\"type\":7},{\"binding\":1,\"block\":{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"values\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"output_data\",\"offset\":0,\"padded_size\":0,\"size\":0,\"type_name\":\"Output\",\"vector_components\":0,\"width\":0},\"count\":1,\"image_format\":0,\"name\":\"output_data\",\"set\":0,\"type\":7}],\"local_size\":[64,1,1],\"push_constants\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"count\",\"offset\":0,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32},{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"scale\",\"offset\":4,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32},{\"array_stride\":0,\"matrix_columns\":0,\"members\":[],\"name\":\"bias\",\"offset\":8,\"padded_size\":4,\"size\":4,\"type_name\":\"\",\"vector_components\":0,\"width\":32}],\"name\":\"p\",\"offset\":0,\"padded_size\":12,\"size\":12,\"type_name\":\"parameter\",\"vector_components\":0,\"width\":0}],\"specialization_constants\":[]},\"logical_shader_id\":\"meguviz-compute/affine_f32\",\"reflection_path\":\"reflection/f946a8174a652db131048bb5266d8d935a5ed062f1231b4ca69203c298100361.json\",\"reflection_sha256\":\"f946a8174a652db131048bb5266d8d935a5ed062f1231b4ca69203c298100361\",\"required_caps\":[\"1\"],\"spirv_path\":\"blobs/6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360.spv\",\"spirv_sha256\":\"6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360\",\"spirv_size\":1636,\"target_env\":\"vulkan1.0\",\"variant_key\":\"6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3\"}],\"manifest_hash\":\"2820fba4af754a72e15cc17fcbb9446acb27660801be051e7c68c251a77f46b4\",\"profile_id\":\"ncnn-compat\",\"profile_version\":\"20261020\",\"required_flags\":[],\"schema_version\":1,\"source_closure_hash\":\"a106370297a75c97aff1967f4ace5c53842c4d170df4b60a6e392b6f0b5bf775\",\"toolchain_lock_hash\":\"e34e0f97360162c31b7c1bc0fe8a726e4e2a8a9b6f253dd3e12ae4186a61d1af\"},\"status\":\"PASS\",\"toolchain_lock_hash\":\"e34e0f97360162c31b7c1bc0fe8a726e4e2a8a9b6f253dd3e12ae4186a61d1af\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\MeguvizPack\\MeguvizCompute\\tools\\artifact_check.py",
+      "--pack",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\pack",
+      "--variant",
+      "6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3",
+      "--profile",
+      "ncnn-compat",
+      "--effective-options-hash",
+      "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\independent-check.json"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "stdout": "{\"result\": \"PASS\", \"scope\": \"host_artifact_integrity_and_static_ncnn_abi\", \"manifest_sha256\": \"2820fba4af754a72e15cc17fcbb9446acb27660801be051e7c68c251a77f46b4\", \"variant_key\": \"6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3\", \"spirv_sha256\": \"6d64ecb3d1afc0b3f184db95c1748e6a51966250901b7210a33cacbb56e46360\", \"required_caps\": [\"1\"], \"interface\": {\"spirv_words\": 409, \"entry_point_found\": true, \"ncnn_named_abi_checked\": true}, \"runtime_pipeline\": \"INCONCLUSIVE - not executed\", \"device_numeric_qualification\": \"INCONCLUSIVE - not executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\MeguvizPack\\MeguvizCompute\\tools\\artifact_check.py",
+      "--pack",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\pack",
+      "--variant",
+      "1111111111111111111111111111111111111111111111111111111111111111",
+      "--profile",
+      "ncnn-compat",
+      "--effective-options-hash",
+      "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\variant-miss.json"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "stdout": "{\"result\": \"FAIL\", \"scope\": \"host_artifact_integrity\", \"reason\": \"variant miss\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\MeguvizPack\\MeguvizCompute\\tools\\artifact_check.py",
+      "--pack",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\pack",
+      "--variant",
+      "6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3",
+      "--profile",
+      "ncnn-compat",
+      "--effective-options-hash",
+      "1111111111111111111111111111111111111111111111111111111111111111",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\options-mismatch.json"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "stdout": "{\"result\": \"FAIL\", \"scope\": \"host_artifact_integrity\", \"reason\": \"effective Options mismatch\"}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "D:\\MeguvizPack\\MeguvizCompute\\tools\\artifact_check.py",
+      "--pack",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\stripped-pack",
+      "--variant",
+      "6021a06751b8c24c877673f3e3cdfc3ed7b2a8a3c27ac0f6084712401332f8f3",
+      "--profile",
+      "ncnn-compat",
+      "--effective-options-hash",
+      "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "--report",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\stripped-rejected.json"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "stdout": "{\"result\": \"FAIL\", \"scope\": \"host_artifact_integrity\", \"reason\": \"ncnn parameter names missing\"}\n",
+    "stderr": ""
+  }
+]

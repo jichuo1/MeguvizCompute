@@ -1,0 +1,147 @@
+[
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--preset",
+      "windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\configure.log",
+    "log_sha256": "c823e7e22732bc60220c71ba1919db51646a6bea6c8f075bd2ed611ab1879f34"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "--preset",
+      "windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\build.log",
+    "log_sha256": "7716162f3cd3b99cf3b8a8dd6decf324e08c7e941aae7e730baba5e4fc8c075b"
+  },
+  {
+    "name": "test",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--preset",
+      "windows-cpu",
+      "--output-junit",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\ctest.xml"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\test.log",
+    "log_sha256": "1a05f3c3f1253cee42a99cbb392369508fbf210a53ce5185346149b94d39775c"
+  },
+  {
+    "name": "install",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\windows-cpu",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\install.log",
+    "log_sha256": "f4d1bd5f8909517ef5131b61b47861bbe7b80cf2dd47e91168c3fee2c65cd838"
+  },
+  {
+    "name": "external-configure",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-source",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu",
+      "-DMGC_REQUIRED_PRIVATE_SDK_FINGERPRINT=c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-configure.log",
+    "log_sha256": "a472ec0311273653c77c567cf98e418d3fa13ce7ffeb8313bce628fec4bc41bf"
+  },
+  {
+    "name": "external-build",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-build",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-build.log",
+    "log_sha256": "c2d488493455408ae91b1ec316b361fc6c2fe1f16eb5cb11153dbac00029b7ef"
+  },
+  {
+    "name": "external-test",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--test-dir",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-build",
+      "--output-on-failure",
+      "--output-junit",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-ctest.xml"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-test.log",
+    "log_sha256": "46c0a4e6cc4ae44e316e0d4c3aed1d4d9e296896228a29e402dda964b6cb3fca"
+  },
+  {
+    "name": "fingerprint-negative",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-source\\mismatch",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\mismatch-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu",
+      "-DMGC_REQUIRED_PRIVATE_SDK_FINGERPRINT=1111111111111111111111111111111111111111111111111111111111111111"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 1,
+    "expected_exit": 1,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\fingerprint-negative.log",
+    "log_sha256": "66259dc111e9092ec4cfbed6d8666c2250f21a4d30a4b1426fcfba121a2b39e5"
+  },
+  {
+    "name": "duplicate-ncnn-negative",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\external-source\\duplicate",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\duplicate-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-cpu"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 1,
+    "expected_exit": 1,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\duplicate-ncnn-negative.log",
+    "log_sha256": "0f8ff267036a72b292662831f927316b717cab7a96d6e5bc4d884fb245263580"
+  }
+]

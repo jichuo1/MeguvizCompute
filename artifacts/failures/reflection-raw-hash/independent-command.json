@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\MeguvizPack\\MeguvizCompute\\tools\\artifact_check.py",
+    "--pack",
+    "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader\\pack",
+    "--variant",
+    "c3af803a6d92e4d4e3d4cb2e813ea428df183a3499a61d381f7b8eb0bb4dec05",
+    "--profile",
+    "ncnn-compat",
+    "--effective-options-hash",
+    "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  ],
+  "exit_code": 1,
+  "stdout": "{\"result\": \"FAIL\", \"scope\": \"host_artifact_integrity\", \"reason\": \"artifact digest mismatch\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,513 @@
+[
+  {
+    "name": "devices",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "devices",
+      "-l"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\devices.log",
+    "log_sha256": "46eb3f80a9021e0d77581a1f303f2679d6853c050a57f48ce4e625d293b3e00a"
+  },
+  {
+    "name": "fingerprint",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "getprop",
+      "ro.build.fingerprint"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\fingerprint.log",
+    "log_sha256": "c4b9f9248e550775d37aa922d839b433d579ed17c563f81aa7de76119bcbae02"
+  },
+  {
+    "name": "abi",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "getprop",
+      "ro.product.cpu.abilist"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\abi.log",
+    "log_sha256": "43706a7d889ae215b8d6e53fd03c4a67c77112baf381a2152c2e378cb91f60b3"
+  },
+  {
+    "name": "api",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "getprop",
+      "ro.build.version.sdk"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\api.log",
+    "log_sha256": "a7022f0d180485abd34c3f24d8e49cc248054679e3554ebe524bafa6c34a8afe"
+  },
+  {
+    "name": "hardware",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "getprop",
+      "ro.hardware"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\hardware.log",
+    "log_sha256": "148a5a3052dff9c7a0eed0e732a87c0d879003da135541c1fe1e5660b7527a08"
+  },
+  {
+    "name": "page-size",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "getconf",
+      "PAGE_SIZE"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\page-size.log",
+    "log_sha256": "30f236f92d107cedc1eab7b3d6dafa316df3657ac88e59ece8df2944b6c995ca"
+  },
+  {
+    "name": "processes",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "ps",
+      "-A"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\processes.log",
+    "log_sha256": "15cfb0976f4b3eb3761cfaf30652793d380c99545cede1dab30e8aa1ca441dad"
+  },
+  {
+    "name": "instrumentation",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "dumpsys",
+      "activity",
+      "instrumentation"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\instrumentation.log",
+    "log_sha256": "e82e59a40f9eebf70399da1de62e0b93031dd6a8f9c32b4adfc84a31f7aa333b"
+  },
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "-DANDROID_ABI=x86_64",
+      "-DANDROID_PLATFORM=android-27",
+      "-DANDROID_STL=c++_static",
+      "-DMGC_WITH_NCNN=ON",
+      "-DMGC_VULKAN=OFF",
+      "-DMGC_NCNN_SOURCE=D:\\MeguvizPack\\dependencies\\ncnn",
+      "-DNCNN_AVX=OFF",
+      "-DNCNN_AVX2=OFF",
+      "-DNCNN_AVX512=OFF",
+      "-DNCNN_XOP=OFF",
+      "-DNCNN_FMA=OFF",
+      "-DNCNN_F16C=OFF",
+      "-DNCNN_RUNTIME_CPU=OFF"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\configure.log",
+    "log_sha256": "03210fbc5cd0e156e08b4593a9efaa1a0badb659be183b23550521feb2e0abcd"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27",
+      "--parallel",
+      "4",
+      "--target",
+      "mgc_c_consumer",
+      "mgc_core_conformance",
+      "mgc_contract_tests",
+      "mgc_tensor_statistics",
+      "mgc_ncnn_c_graph",
+      "mgc_headless"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\build.log",
+    "log_sha256": "f2bdb68eb8d02272dbabf5f9ccc5c592a24332f7c512de81a1c611e34d7e4f48"
+  },
+  {
+    "name": "mkdir",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "mkdir",
+      "-p",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\mkdir.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "push-mgc_c_consumer",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_c_consumer",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_c_consumer"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_c_consumer.log",
+    "log_sha256": "421957d9f687797b8ddea228ac969c5dec7384854b991d1144207d8f28e6cb30"
+  },
+  {
+    "name": "remote-hash-mgc_c_consumer",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_c_consumer"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_c_consumer.log",
+    "log_sha256": "b412fbdaafe093b2d489327bb2fd42f88b361e10edb9aca849b8f8e3a575872a"
+  },
+  {
+    "name": "chmod-mgc_c_consumer",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_c_consumer"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_c_consumer.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_c_consumer",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_c_consumer"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_c_consumer.log",
+    "log_sha256": "0e368fa956f551bf6b215c2551be5d1bd448ff06cdb2898d459c9eb825e9288a"
+  },
+  {
+    "name": "push-mgc_core_conformance",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_core_conformance",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_core_conformance"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_core_conformance.log",
+    "log_sha256": "54dd4c60d41d8e24d68533c0646d283aadb07429421613330b9263c03668638d"
+  },
+  {
+    "name": "remote-hash-mgc_core_conformance",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_core_conformance"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_core_conformance.log",
+    "log_sha256": "5f84b790f62ce8907840f1cf0a911b8053e4dc3dd102a9d424ced88e48bd8c5c"
+  },
+  {
+    "name": "chmod-mgc_core_conformance",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_core_conformance"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_core_conformance.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_core_conformance",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_core_conformance"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_core_conformance.log",
+    "log_sha256": "a99980c888e268df8decfb41bcceebbe2a5cda59beb85e0a445161a644cf75d8"
+  },
+  {
+    "name": "push-mgc_contract_tests",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_contract_tests",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_contract_tests"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_contract_tests.log",
+    "log_sha256": "74eacfd89e4a1ec2b093de87c93b883f1ea7688ce0ef60f77c4ee2b50c86e58f"
+  },
+  {
+    "name": "remote-hash-mgc_contract_tests",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_contract_tests"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_contract_tests.log",
+    "log_sha256": "a9b8a9da8f43b449bea9222c6b730bf10e12fbac00c8067370c88409856ab06f"
+  },
+  {
+    "name": "chmod-mgc_contract_tests",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_contract_tests"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_contract_tests.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_contract_tests",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_contract_tests"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_contract_tests.log",
+    "log_sha256": "9016b98ac0288f1a03679f03996fdd4f0d1a746b047a2cd7009ba222c608ebe1"
+  },
+  {
+    "name": "push-mgc_tensor_statistics",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_tensor_statistics",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_tensor_statistics"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_tensor_statistics.log",
+    "log_sha256": "1ade66011303c74407aad34865ad3d06c4af03a10663e04275a1c3686b201ddc"
+  },
+  {
+    "name": "remote-hash-mgc_tensor_statistics",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_tensor_statistics"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_tensor_statistics.log",
+    "log_sha256": "f73307602020b259331a9b321be2b147174f28d30e0783652e7ca72c3989a11c"
+  },
+  {
+    "name": "chmod-mgc_tensor_statistics",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_tensor_statistics"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_tensor_statistics.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_tensor_statistics",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_tensor_statistics"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_tensor_statistics.log",
+    "log_sha256": "a125677a9f1c08ca3889e9cf9a3145ce72ff83ed9bbb7abb7a20818f09e31e7a"
+  },
+  {
+    "name": "push-mgc_ncnn_c_graph",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_ncnn_c_graph",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_ncnn_c_graph"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_ncnn_c_graph.log",
+    "log_sha256": "4e72a32b9c31f0c069ffed635fa9fa4af8e7ce325166fd4a9c63dcdef72dc2ba"
+  },
+  {
+    "name": "remote-hash-mgc_ncnn_c_graph",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_ncnn_c_graph"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_ncnn_c_graph.log",
+    "log_sha256": "79dea84f9abbaf9bedd0c59ca2c09ab1e96c050252d855f0f85f2b353bf4987c"
+  },
+  {
+    "name": "chmod-mgc_ncnn_c_graph",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_ncnn_c_graph"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_ncnn_c_graph.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_ncnn_c_graph",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_ncnn_c_graph"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_ncnn_c_graph.log",
+    "log_sha256": "57cf974b8571658c7631ae66af55bc3fb761bf294fd2e52624a212737b90c113"
+  },
+  {
+    "name": "push-mgc_headless",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "push",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_headless",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_headless"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\push-mgc_headless.log",
+    "log_sha256": "bb828937abd4ffd0c9be6b111c8c77ded6384688e69c4593b22e55246ac41ce0"
+  },
+  {
+    "name": "remote-hash-mgc_headless",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "sha256sum",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_headless"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\remote-hash-mgc_headless.log",
+    "log_sha256": "621c893e228c0e3913d3b79b1ca34c2901afe6a1ee0d5fa96cc7fc69bf3bc5f1"
+  },
+  {
+    "name": "chmod-mgc_headless",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "chmod",
+      "700",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_headless"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\chmod-mgc_headless.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "execute-mgc_headless",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe",
+      "-s",
+      "emulator-5732",
+      "shell",
+      "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_headless"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\execute-mgc_headless.log",
+    "log_sha256": "52e2a1bbbae9f610c5d129cf3eb318ad81817dfa8da841d1dd0d18a8e9619a69"
+  }
+]

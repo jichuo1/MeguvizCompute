@@ -1,0 +1,454 @@
+{
+  "result": "PASS",
+  "scope": "cross_compile_install_link_ELF_only",
+  "abi": "arm64-v8a",
+  "profile": "android-arm64-api27",
+  "prefix": "D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27",
+  "build": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "build_fingerprint": "cd35e7eff3cc3bbd9de627bd45c42d432013607b12fabb99d562fccbc5776383",
+    "private_sdk_fingerprint": "a604931188ed2bcc19165aaa8cfeb8af32e23a522e0e9caa8387923f310fa38c",
+    "ncnn_commit": "7e36d25cb153092ba87a60530455c7376fedf452",
+    "glslang_commit": "780b6a209132dc74e99458f62ebe5fa7e57c41cf",
+    "build_options": "ncnn=7e36d25cb153092ba87a60530455c7376fedf452;glslang=780b6a209132dc74e99458f62ebe5fa7e57c41cf;patches=none;vulkan=ON;openmp=OFF;stdio=ON;string=ON;cxx=17;compiler=Clang-21.0.0;target=Android-aarch64;abi=arm64-v8a;api=android-27;ndk=30.0;stl=c++_static;ptr=8;config=Release;sdk=0.1.0;NCNN_ARM82=ON;NCNN_ARM82DOT=ON;NCNN_ARM82FP16FML=ON;NCNN_ARM84BF16=ON;NCNN_ARM84I8MM=ON;NCNN_ARM86SVE=ON;NCNN_ARM86SVE2=ON;NCNN_ARM86SVEBF16=ON;NCNN_ARM86SVEF32MM=ON;NCNN_ARM86SVEI8MM=ON;NCNN_ASAN=OFF;NCNN_BATCH=ON;NCNN_BENCHMARK=OFF;NCNN_BF16=ON;NCNN_BUILD_BENCHMARK=OFF;NCNN_BUILD_EXAMPLES=OFF;NCNN_BUILD_TESTS=OFF;NCNN_BUILD_TOOLS=OFF;NCNN_BUILD_WITH_STATIC_CRT=ON;NCNN_CMAKE_VERBOSE=OFF;NCNN_COMPILER_SUPPORT_ARM82_DOTPROD=1;NCNN_COMPILER_SUPPORT_ARM82_FP16=1;NCNN_COMPILER_SUPPORT_ARM82_FP16FML=1;NCNN_COMPILER_SUPPORT_ARM84_BF16=1;NCNN_COMPILER_SUPPORT_ARM84_I8MM=1;NCNN_COMPILER_SUPPORT_ARM86_SVE=1;NCNN_COMPILER_SUPPORT_ARM86_SVE2=1;NCNN_COMPILER_SUPPORT_ARM86_SVEBF16=1;NCNN_COMPILER_SUPPORT_ARM86_SVEF32MM=1;NCNN_COMPILER_SUPPORT_ARM86_SVEI8MM=1;NCNN_COMPILER_SUPPORT_ARM_VFPV4=1;NCNN_COMPILER_SUPPORT_GNU_INLINE_ASM=1;NCNN_COVERAGE=OFF;NCNN_C_API=ON;NCNN_DISABLE_EXCEPTION=ON;NCNN_DISABLE_PIC=OFF;NCNN_DISABLE_RTTI=ON;NCNN_ENABLE_LTO=OFF;NCNN_FORCE_INLINE=ON;NCNN_GNU_INLINE_ASM=ON;NCNN_INSTALL_SDK=ON;NCNN_INT8=ON;NCNN_OPENMP=OFF;NCNN_PIXEL=ON;NCNN_PIXEL_AFFINE=ON;NCNN_PIXEL_DRAWING=ON;NCNN_PIXEL_ROTATE=ON;NCNN_PLATFORM_API=ON;NCNN_PYTHON=OFF;NCNN_RUNTIME_CPU=ON;NCNN_SHARED_LIB=OFF;NCNN_SIMPLEMATH=OFF;NCNN_SIMPLEOCV=OFF;NCNN_SIMPLEOMP=OFF;NCNN_SIMPLESTL=OFF;NCNN_SIMPLEVK=ON;NCNN_STDIO=ON;NCNN_STRING=ON;NCNN_SYSTEM_GLSLANG=OFF;NCNN_THREADS=ON;NCNN_VALIDATION=ON;NCNN_VERSION=20261020;NCNN_VFPV4=ON;NCNN_VULKAN=ON;NCNN_WEIGHT_QUANT=ON;NCNN_WINXP=OFF;with_ncnn=ON;compiler_sha256=5a7b3226976221f6dc1464d850614403dc18e5fddcb43120640f20472c5c960c;cflags=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security ;cxxflags=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  ;release_cxxflags=-O3 -DNDEBUG ;private_headers=2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42-8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf;ncnn_platform_hash=972c16a77a5959b0cc7d4c9b70647b80ef97e066d522db22570db9a7fe04836f",
+    "runtime_compiler_policy": "retained in Vulkan builds; no-runtime profile unsupported",
+    "device_qualification": "NOT_RUN"
+  },
+  "files": [
+    {
+      "path": "include/glslang/build_info.h",
+      "size": 2957,
+      "sha256": "18a3fc84e10f86515b15e8e24c3becbb5216c5caa316aa6a7105147c737b9b99"
+    },
+    {
+      "path": "include/glslang/Include/glslang_c_interface.h",
+      "size": 12920,
+      "sha256": "b723b0213cf65bb6cc44feee2cbc7746c82483a00ad7d5d057f7fd29c136490e"
+    },
+    {
+      "path": "include/glslang/Include/glslang_c_shader_types.h",
+      "size": 9467,
+      "sha256": "3270764b5f5261441ea098d1c5305e9b5e3b17276da82042b337734ad477d9c4"
+    },
+    {
+      "path": "include/glslang/Include/ResourceLimits.h",
+      "size": 5664,
+      "sha256": "a8b162ebbbf953334ee86464c5020bb606be7def97e2bc2edc7dbb435c9560af"
+    },
+    {
+      "path": "include/glslang/Include/visibility.h",
+      "size": 2345,
+      "sha256": "0e48f93441577e0e45afca8e425f0ace7765fb5e135d9d505c12961a3edc68ac"
+    },
+    {
+      "path": "include/glslang/MachineIndependent/Versions.h",
+      "size": 29561,
+      "sha256": "61fa913a5af8debccb2c2c38838aefb03be9d721eacbaeffe7119114a6a2e974"
+    },
+    {
+      "path": "include/glslang/Public/resource_limits_c.h",
+      "size": 2394,
+      "sha256": "4e01ee67e30be094659e9579db280005fc92a97ac3f57644a7827ff8fcc8fba8"
+    },
+    {
+      "path": "include/glslang/Public/ResourceLimits.h",
+      "size": 2533,
+      "sha256": "addf6ae69ffe48712320011beb8375d3f912461709709e2bad2fe1c8a7b8cda7"
+    },
+    {
+      "path": "include/glslang/Public/ShaderLang.h",
+      "size": 45855,
+      "sha256": "91d38df5c270c8f4cb241218deab24c7e5cd0d765f664e53ed2e4922361adf45"
+    },
+    {
+      "path": "include/glslang/SPIRV/disassemble.h",
+      "size": 1982,
+      "sha256": "eac9c7213408196d29fed8517fb97515411e8a2eed2880daafb75bfce578eb1c"
+    },
+    {
+      "path": "include/glslang/SPIRV/GlslangToSpv.h",
+      "size": 2911,
+      "sha256": "41bb8a31378bfa1237acca834ad1e6c5b5d7d8ab9bcb28ec3b7443a8a88c8f45"
+    },
+    {
+      "path": "include/glslang/SPIRV/Logger.h",
+      "size": 2740,
+      "sha256": "0a6a1f0a8c50e8dabb01e0d5c4047e3d0976d3a5a968e26a03224c882d40664f"
+    },
+    {
+      "path": "include/glslang/SPIRV/spirv.hpp11",
+      "size": 306882,
+      "sha256": "ade9934c13f660c95b76c6ec08275ef0bc23677d71592f35fd11f379e5f7121f"
+    },
+    {
+      "path": "include/glslang/SPIRV/SpvTools.h",
+      "size": 5302,
+      "sha256": "a23d4817c892476ed9cfa952df8b9d1bbca005be79f140fcd2d1f7b377480ce3"
+    },
+    {
+      "path": "include/meguviz/compute.h",
+      "size": 8879,
+      "sha256": "7091507589a1f16b473d6832c67436e6a323c87d2a2c38338442ea04abb60c60"
+    },
+    {
+      "path": "include/meguviz/compute_android.h",
+      "size": 1194,
+      "sha256": "86c1646eb2f6220af01fc521a8b05e4c0fb088ab37a2df8dc99d11de0128d2b4"
+    },
+    {
+      "path": "include/meguviz/kernels.h",
+      "size": 1329,
+      "sha256": "f4526da6a6885fc97a14d3274518ed06467b77992f08cd75cd0341ea51f8e8b0"
+    },
+    {
+      "path": "include/meguviz-private/meguviz/backend_ncnn_sdk.hpp",
+      "size": 746,
+      "sha256": "2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42"
+    },
+    {
+      "path": "include/meguviz-private/meguviz/compute_job.h",
+      "size": 1222,
+      "sha256": "8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf"
+    },
+    {
+      "path": "include/ncnn/allocator.h",
+      "size": 13212,
+      "sha256": "4eedf70da9e9018f283c5c10f665e68790ee6ca3ae5c09c17c7abb8542583c13"
+    },
+    {
+      "path": "include/ncnn/benchmark.h",
+      "size": 664,
+      "sha256": "fa5e32fd6a61499801485667fdba8bb0aa0bbbe8d34e6315ab69f5c198231cd9"
+    },
+    {
+      "path": "include/ncnn/blob.h",
+      "size": 562,
+      "sha256": "d367b89c96f19a2e14ae2e021ad511f89603cdc6524bb9a25599bb5effba3ab9"
+    },
+    {
+      "path": "include/ncnn/c_api.h",
+      "size": 25502,
+      "sha256": "5b9d536df035fa9e458703b72115fb073b66c03a2519ec5c2050380aaa4b9e30"
+    },
+    {
+      "path": "include/ncnn/command.h",
+      "size": 3737,
+      "sha256": "d859bf0759e75bf8b031bcc834eff84baa17f37e2a0f073dc8c5d17062db2f26"
+    },
+    {
+      "path": "include/ncnn/cpu.h",
+      "size": 5625,
+      "sha256": "7ac3a6fa221092366ae2c4529060082736f89a9eb4a29ba26581cfd9c4b7b086"
+    },
+    {
+      "path": "include/ncnn/datareader.h",
+      "size": 3283,
+      "sha256": "b1206ea1bc057b7a4f4b6ce75890d9846a77f607eb1d3c263a3bed4718ac14a1"
+    },
+    {
+      "path": "include/ncnn/expression.h",
+      "size": 806,
+      "sha256": "919bf4dd8bdfe58a0ac5896c93b46433a2e552a22888268e6d0a9748dd696c8c"
+    },
+    {
+      "path": "include/ncnn/gpu.h",
+      "size": 28380,
+      "sha256": "65d76235512b1d78a5dedf2c5b09adb36e0486d48642a4b84cc89b5705da3071"
+    },
+    {
+      "path": "include/ncnn/layer.h",
+      "size": 6087,
+      "sha256": "3596a28cf312005707916385168a817bc291b6602fda192b2fdd465fba0e6e9d"
+    },
+    {
+      "path": "include/ncnn/layer_shader_type.h",
+      "size": 349,
+      "sha256": "42242a46ce7daba28767b3ce293e22d4e79553f5b45ce079ac7a26080e42780e"
+    },
+    {
+      "path": "include/ncnn/layer_shader_type_enum.h",
+      "size": 9820,
+      "sha256": "47f3265a5cd1173d66e8ed9c48bc7884866e548b280b4f27c4e816a42933559a"
+    },
+    {
+      "path": "include/ncnn/layer_type.h",
+      "size": 330,
+      "sha256": "75cb00100bbfe2a502ff780711600a2abc6c4d5043eb4eabbb86f07b13efbd98"
+    },
+    {
+      "path": "include/ncnn/layer_type_enum.h",
+      "size": 1911,
+      "sha256": "05d55b13c816f3289ee8e804181f484d652987751f8b85819bcc32064053ef85"
+    },
+    {
+      "path": "include/ncnn/mat.h",
+      "size": 91752,
+      "sha256": "500b3ab018fcbed5860331975a1f85926ee426e5f53bbc64ff045ddfb370a42d"
+    },
+    {
+      "path": "include/ncnn/modelbin.h",
+      "size": 1779,
+      "sha256": "e4b9b7cbe702a85c7a4b952f0f456b89b69eea17a3049b52cca8e71a914d71e3"
+    },
+    {
+      "path": "include/ncnn/ncnn_export.h",
+      "size": 959,
+      "sha256": "720da39f6f931fa0461810775d6882e71c732be8a041925260115bd7525afe47"
+    },
+    {
+      "path": "include/ncnn/net.h",
+      "size": 7872,
+      "sha256": "d8d3f69b7eeb9a8ec24ab8201d92a8d24ba08a2eb4c4b6880d884985ac63862b"
+    },
+    {
+      "path": "include/ncnn/option.h",
+      "size": 4539,
+      "sha256": "534fd97cecd31b4aa9066d99acdb5c3ee25479003381bc685aa28b368c05189e"
+    },
+    {
+      "path": "include/ncnn/paramdict.h",
+      "size": 1602,
+      "sha256": "57a4d90ea8c4e12ba7d810f7078e6b0a9b3e332f4f5c5d1f7679d3ec67564588"
+    },
+    {
+      "path": "include/ncnn/pipeline.h",
+      "size": 2988,
+      "sha256": "a0e2f2a417c5f283ade6907d1cef4370938271695de974988044950aaf488dd1"
+    },
+    {
+      "path": "include/ncnn/pipelinecache.h",
+      "size": 3222,
+      "sha256": "1013f4c6692dc9bfdea1063e28494efd5feffddbc76911be580948a0536abebf"
+    },
+    {
+      "path": "include/ncnn/platform.h",
+      "size": 13000,
+      "sha256": "972c16a77a5959b0cc7d4c9b70647b80ef97e066d522db22570db9a7fe04836f"
+    },
+    {
+      "path": "include/ncnn/simplemath.h",
+      "size": 2862,
+      "sha256": "e45b5676fd49dc87b76a979a3efddd7d31ded15ec7a30d65fe32ed4d9e1e43ba"
+    },
+    {
+      "path": "include/ncnn/simpleocv.h",
+      "size": 9868,
+      "sha256": "51f6838eb1e6823f2a6b6cb2f5f4f2536011dbd7c9c6fcfa7e9a5f3a940a6199"
+    },
+    {
+      "path": "include/ncnn/simpleomp.h",
+      "size": 838,
+      "sha256": "61756b512872a3ab10b35ba978dd5ec82cd30c6ba7e0e7327d4f6ef87e5fa3bf"
+    },
+    {
+      "path": "include/ncnn/simplestl.h",
+      "size": 12139,
+      "sha256": "1ae30ad95dcf3c3a7fa3a3bffa2e54ca2f7cca9e1ee381cd51d6806e71d2508d"
+    },
+    {
+      "path": "include/ncnn/simplevk.h",
+      "size": 90967,
+      "sha256": "5a996b816bb753d970f146e5516b76d8f7c10d080cec9f9042c32352dedd709a"
+    },
+    {
+      "path": "include/ncnn/vulkan_header_fix.h",
+      "size": 97243,
+      "sha256": "6d959e94c39f444271ce0ccbf42c56c31eef9b3a90b8db121cb797137da9f766"
+    },
+    {
+      "path": "lib/cmake/glslang/glslang-config-version.cmake",
+      "size": 2830,
+      "sha256": "8af684239d72e69fb31259f4638c0528fbf38db71dade17114e4b0eaae1e970f"
+    },
+    {
+      "path": "lib/cmake/glslang/glslang-config.cmake",
+      "size": 1230,
+      "sha256": "ba811bf9ca1d41b82bc812462700adbfb8f2b3e15101d1f36dfc75f54e0e34bf"
+    },
+    {
+      "path": "lib/cmake/glslang/glslang-targets-release.cmake",
+      "size": 3617,
+      "sha256": "97ace2fa392d632960f7fd653aa1d5f85093ae8313b72413707c3ea4a4687182"
+    },
+    {
+      "path": "lib/cmake/glslang/glslang-targets.cmake",
+      "size": 5377,
+      "sha256": "e799d07b861255d27a96f2844fd3a536f0b1ce17adc63d25b4d19b671ddaeb0d"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/build-info.json",
+      "size": 2977,
+      "sha256": "f4409e8bccf0df0555722f2d3394b982c7559e55ace433c59733c6159b0f7701"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfig.cmake",
+      "size": 1896,
+      "sha256": "7165aa8e7eea4ba685d161781845d1bc2f3f529bfa6a6018b84ca4907fda15f9"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfigVersion.cmake",
+      "size": 2827,
+      "sha256": "c626df80d51f26a450ee36ae47e466121b32f0a9a98894687c0b7edc332170c4"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets-release.cmake",
+      "size": 920,
+      "sha256": "7e53af2a4d3192401e615c142213087cf846b821f0e7bfa3d451b9304a121f3c"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets.cmake",
+      "size": 5893,
+      "sha256": "db42b6a28046c4bc3a8c0e5dc1ee39265ffb771ecc6309c467a6dc9eb0412224"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnn-release.cmake",
+      "size": 808,
+      "sha256": "8555c718bfd59fb636fa14f24159d87fa43e1f80a9ae088664c7b9e9ed82735f"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnn.cmake",
+      "size": 5252,
+      "sha256": "a409f586a9224b17a01d73e3932a2e71a8009ad349f1e401bb0372509738232c"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnnConfig.cmake",
+      "size": 1674,
+      "sha256": "5fbcd3afdf31f8b6c6434aebe5713a3c8c32e2e071160d5a0d96a3d322df8cfe"
+    },
+    {
+      "path": "lib/cmake/ncnn/ncnnConfigVersion.cmake",
+      "size": 1907,
+      "sha256": "e1dc476d67381bc8f2e4006c77f804d45adec612ea5bf9d8270b9f44f1eec198"
+    },
+    {
+      "path": "lib/libGenericCodeGen.a",
+      "size": 2780,
+      "sha256": "3fbed7dc6ef8254f4de4c8a2f883c99508384fb1771630459b76da6eea2677aa"
+    },
+    {
+      "path": "lib/libglslang-default-resource-limits.a",
+      "size": 317334,
+      "sha256": "db29baa8e8781d5dad238ef6fde73b615fd401fd6c8eb2cf5153bc9cdc063c98"
+    },
+    {
+      "path": "lib/libglslang.a",
+      "size": 59043598,
+      "sha256": "95f4bb18508cbd444879b2be71795e9a1356e1863bbcc8ba38ce86769012577e"
+    },
+    {
+      "path": "lib/libMachineIndependent.a",
+      "size": 2780,
+      "sha256": "3fbed7dc6ef8254f4de4c8a2f883c99508384fb1771630459b76da6eea2677aa"
+    },
+    {
+      "path": "lib/libmeguviz_compute_core.a",
+      "size": 908060,
+      "sha256": "cce45f972d9a9ad5d1819cdf3c796f1fc6dc197d38fb6a9be279bb236242a447"
+    },
+    {
+      "path": "lib/libncnn.a",
+      "size": 89412122,
+      "sha256": "798f33fabc9460c747442d4b2fdc9dce07443344be18b4b7b21762bb7ba541b1"
+    },
+    {
+      "path": "lib/libOSDependent.a",
+      "size": 2780,
+      "sha256": "3fbed7dc6ef8254f4de4c8a2f883c99508384fb1771630459b76da6eea2677aa"
+    },
+    {
+      "path": "lib/libSPIRV.a",
+      "size": 2780,
+      "sha256": "3fbed7dc6ef8254f4de4c8a2f883c99508384fb1771630459b76da6eea2677aa"
+    },
+    {
+      "path": "lib/pkgconfig/ncnn.pc",
+      "size": 329,
+      "sha256": "7b976fb930d7c4cde40e312a8829a3d0b2d0dde2e67c6a97c07131116aef40b8"
+    },
+    {
+      "path": "share/MeguvizCompute/LICENSE",
+      "size": 1071,
+      "sha256": "de0ff48d4a5e2df2299de5c3233091567f5112dcc48c7593e98d77db543591a1"
+    },
+    {
+      "path": "share/MeguvizCompute/licenses/glslang-LICENSE.txt",
+      "size": 55628,
+      "sha256": "7d4c1655be3a4d99e8a4859335e28c8950f2e7f72dcf3eed3379846120f5bf47"
+    },
+    {
+      "path": "share/MeguvizCompute/licenses/ncnn-LICENSE.txt",
+      "size": 6513,
+      "sha256": "3a066e39806976fe274a042929523c68821c54bcf73369ed61aae2717edd54e8"
+    },
+    {
+      "path": "share/MeguvizCompute/ncnn.lock.json",
+      "size": 454,
+      "sha256": "085e0bf62860d25c7becc808e4e445269f264e8fc511467fc986d0e7e172c5db"
+    },
+    {
+      "path": "share/MeguvizCompute/NOTICE.md",
+      "size": 425,
+      "sha256": "38a0d81b27a11d909f9a42ffc849b17815ba86344c10bef79e7811738527d44e"
+    },
+    {
+      "path": "share/MeguvizCompute/SBOM.json",
+      "size": 744,
+      "sha256": "d2683a39f2b75826ec4200947f1aa7ca98e343c617451bb593d75cddf66d4e1b"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/shaderpack.schema.json",
+      "size": 4154,
+      "sha256": "e18d92e7ef67961412e48c4c7774ad9fa4c3977855b1db9e81051b89691a83df"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/source.lock.json",
+      "size": 202,
+      "sha256": "38221d4c4883ff5a4949debe84718cbb19989da8c75443ba6938729efbaf5284"
+    }
+  ],
+  "link_fixture": {
+    "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-build\\libcompute_closure.so",
+    "size": 75153904,
+    "sha256": "7bdecc9d8ea65b16871f36d8d692532be0c72c289b0cab5e6eb7654a21173ca6",
+    "exports": [
+      "mgc_submit",
+      "mgc_ticket_release",
+      "mgc_domain_acquire",
+      "mgc_resource_release",
+      "mgc_lease_info",
+      "mgc_ticket_retain",
+      "mgc_session_create",
+      "mgc_session_close",
+      "mgc_domain_retain",
+      "mgc_ticket_cancel",
+      "mgc_android_export_release_fence",
+      "mgc_runtime_release",
+      "mgc_domain_release",
+      "mgc_domain_capability",
+      "mgc_test_entry",
+      "mgc_query_build_info",
+      "mgc_runtime_close",
+      "mgc_domain_identity",
+      "mgc_resource_create",
+      "mgc_resource_retain",
+      "mgc_lease_create",
+      "mgc_lease_retain",
+      "mgc_ticket_query",
+      "mgc_runtime_create",
+      "mgc_runtime_retain",
+      "mgc_lease_release",
+      "mgc_lease_map",
+      "mgc_lease_unmap",
+      "mgc_session_drain",
+      "mgc_android_import"
+    ],
+    "load_alignment": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ]
+  },
+  "runtime_qualification": "INCONCLUSIVE - no ARM device execution",
+  "page_size_runtime": "INCONCLUSIVE - ELF alignment is not 16KiB runtime evidence"
+}

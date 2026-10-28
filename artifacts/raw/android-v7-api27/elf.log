@@ -1,0 +1,279 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          50477380 (bytes into file)
+  Flags:                             0x5000200
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         9
+  Size of section headers:           40 (bytes)
+  Number of section headers:         39
+  Section header string table index: 37
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 9 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  PHDR           0x000034 0x00000034 0x00000034 0x00120 0x00120 R   0x4
+  LOAD           0x000000 0x00000000 0x00000000 0x56b950 0x56b950 R E 0x4000
+  LOAD           0x56b950 0x0056f950 0x0056f950 0x0bc34 0x0c6b0 RW  0x4000
+  LOAD           0x577588 0x0057f588 0x0057f588 0x000d0 0x096a9 RW  0x4000
+  DYNAMIC        0x576db4 0x0057adb4 0x0057adb4 0x00100 0x00100 RW  0x4
+  GNU_RELRO      0x56b950 0x0056f950 0x0056f950 0x0bc34 0x0c6b0 R   0x1
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x0
+  NOTE           0x000154 0x00000154 0x00000154 0x000bc 0x000bc R   0x4
+  EXIDX          0x014408 0x00014408 0x00014408 0x075e8 0x075e8 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.android.ident .note.gnu.build-id .dynsym .gnu.version .gnu.version_d .gnu.version_r .gnu.hash .dynstr .rel.dyn .ARM.exidx .rel.plt .ARM.extab .rodata .ARM.extab__lcxx_override .text __lcxx_override .plt 
+   02     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   03     .data .bss 
+   04     .dynamic 
+   05     .data.rel.ro .fini_array .init_array .dynamic .got .got.plt .relro_padding 
+   06     
+   07     .note.android.ident .note.gnu.build-id 
+   08     .ARM.exidx 
+   None   .comment .ARM.attributes .debug_loc .debug_abbrev .debug_info .debug_str .debug_frame .debug_line .debug_ranges .symtab .shstrtab .strtab 
+Dynamic section at offset 0x576db4 contains 32 entries:
+  Tag        Type           Name/Value
+  0x00000001 (NEEDED)       Shared library: [libdl.so]
+  0x00000001 (NEEDED)       Shared library: [libandroid.so]
+  0x00000001 (NEEDED)       Shared library: [libjnigraphics.so]
+  0x00000001 (NEEDED)       Shared library: [liblog.so]
+  0x00000001 (NEEDED)       Shared library: [libm.so]
+  0x00000001 (NEEDED)       Shared library: [libc.so]
+  0x0000000e (SONAME)       Library soname: [libcompute_closure.so]
+  0x0000001e (FLAGS)        BIND_NOW 
+  0x6ffffffb (FLAGS_1)      NOW 
+  0x00000011 (REL)          0x19d8
+  0x00000012 (RELSZ)        76336 (bytes)
+  0x00000013 (RELENT)       8 (bytes)
+  0x6ffffffa (RELCOUNT)     9536
+  0x00000017 (JMPREL)       0x1b9f0
+  0x00000002 (PLTRELSZ)     1288 (bytes)
+  0x00000003 (PLTGOT)       0x57b2f4
+  0x00000014 (PLTREL)       REL
+  0x00000006 (SYMTAB)       0x210
+  0x0000000b (SYMENT)       16 (bytes)
+  0x00000005 (STRTAB)       0x1120
+  0x0000000a (STRSZ)        2231 (bytes)
+  0x6ffffef5 (GNU_HASH)     0x103c
+  0x00000019 (INIT_ARRAY)   0x57ad9c
+  0x0000001b (INIT_ARRAYSZ) 24 (bytes)
+  0x0000001a (FINI_ARRAY)   0x57ad94
+  0x0000001c (FINI_ARRAYSZ) 8 (bytes)
+  0x6ffffff0 (VERSYM)       0xe20
+  0x6ffffffc (VERDEF)       0xfa4
+  0x6ffffffd (VERDEFNUM)    2
+  0x6ffffffe (VERNEED)      0xfdc
+  0x6fffffff (VERNEEDNUM)   3
+  0x00000000 (NULL)         0x0
+
+Symbol table '.dynsym' contains 193 entries:
+   Num:    Value  Size Type    Bind   Vis       Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT   UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT   UND __cxa_finalize@LIBC
+     2: 00000000     0 FUNC    GLOBAL DEFAULT   UND __cxa_atexit@LIBC
+     3: 00000000     0 FUNC    GLOBAL DEFAULT   UND __stack_chk_fail@LIBC
+     4: 00000000     0 OBJECT  GLOBAL DEFAULT   UND __stack_chk_guard@LIBC
+     5: 00000000     0 FUNC    GLOBAL DEFAULT   UND __memcpy_chk@LIBC
+     6: 00000000     0 FUNC    GLOBAL DEFAULT   UND memcmp@LIBC
+     7: 00000000     0 FUNC    GLOBAL DEFAULT   UND wmemchr@LIBC
+     8: 00000000     0 FUNC    GLOBAL DEFAULT   UND floor@LIBC
+     9: 00000000     0 FUNC    GLOBAL DEFAULT   UND free@LIBC
+    10: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_create@LIBC
+    11: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_setspecific@LIBC
+    12: 00000000     0 FUNC    GLOBAL DEFAULT   UND fscanf@LIBC
+    13: 00000000     0 FUNC    GLOBAL DEFAULT   UND fread@LIBC
+    14: 00000000     0 FUNC    GLOBAL DEFAULT   UND strlen@LIBC
+    15: 00000000     0 FUNC    GLOBAL DEFAULT   UND sscanf@LIBC
+    16: 00000000     0 FUNC    GLOBAL DEFAULT   UND __vsnprintf_chk@LIBC
+    17: 00000000     0 FUNC    GLOBAL DEFAULT   UND memchr@LIBC
+    18: 00000000     0 FUNC    GLOBAL DEFAULT   UND __vsprintf_chk@LIBC
+    19: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutex_destroy@LIBC
+    20: 00000000     0 FUNC    GLOBAL DEFAULT   UND strcmp@LIBC
+    21: 00000000     0 FUNC    GLOBAL DEFAULT   UND fprintf@LIBC
+    22: 00000000     0 FUNC    GLOBAL DEFAULT   UND fputc@LIBC
+    23: 00000000     0 FUNC    GLOBAL DEFAULT   UND __android_log_print
+    24: 00000000     0 OBJECT  GLOBAL DEFAULT   UND stderr@LIBC
+    25: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutex_lock@LIBC
+    26: 00000000     0 FUNC    GLOBAL DEFAULT   UND fwrite@LIBC
+    27: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutex_unlock@LIBC
+    28: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutex_init@LIBC
+    29: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_init@LIBC
+    30: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_destroy@LIBC
+    31: 00000000     0 FUNC    GLOBAL DEFAULT   UND malloc@LIBC
+    32: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_wait@LIBC
+    33: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_signal@LIBC
+    34: 00000000     0 FUNC    GLOBAL DEFAULT   UND strncmp@LIBC
+    35: 00000000     0 FUNC    GLOBAL DEFAULT   UND fputs@LIBC
+    36: 00000000     0 FUNC    GLOBAL DEFAULT   UND posix_memalign@LIBC
+    37: 00000000     0 FUNC    GLOBAL DEFAULT   UND munmap@LIBC
+    38: 00000000     0 FUNC    GLOBAL DEFAULT   UND close@LIBC
+    39: 00000000     0 FUNC    GLOBAL DEFAULT   UND __strlen_chk@LIBC
+    40: 00000000     0 FUNC    GLOBAL DEFAULT   UND fopen@LIBC
+    41: 00000000     0 FUNC    GLOBAL DEFAULT   UND fclose@LIBC
+    42: 00000000     0 FUNC    GLOBAL DEFAULT   UND feof@LIBC
+    43: 00000000     0 FUNC    GLOBAL DEFAULT   UND fgets@LIBC
+    44: 00000000     0 FUNC    GLOBAL DEFAULT   UND fgetc@LIBC
+    45: 00000000     0 FUNC    GLOBAL DEFAULT   UND sysconf@LIBC
+    46: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_key_delete@LIBC
+    47: 00000000     0 FUNC    GLOBAL DEFAULT   UND getauxval@LIBC
+    48: 00000000     0 FUNC    GLOBAL DEFAULT   UND dlerror@LIBC
+    49: 00000000     0 FUNC    GLOBAL DEFAULT   UND dlopen@LIBC
+    50: 00000000     0 FUNC    GLOBAL DEFAULT   UND dlsym@LIBC
+    51: 00000000     0 FUNC    GLOBAL DEFAULT   UND dlclose@LIBC
+    52: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_key_create@LIBC
+    53: 00000000     0 FUNC    GLOBAL DEFAULT   UND __strchr_chk@LIBC
+    54: 00000000     0 FUNC    GLOBAL DEFAULT   UND fflush@LIBC
+    55: 00000000     0 FUNC    GLOBAL DEFAULT   UND getenv@LIBC
+    56: 00000000     0 FUNC    GLOBAL DEFAULT   UND opendir@LIBC
+    57: 00000000     0 FUNC    GLOBAL DEFAULT   UND readdir@LIBC
+    58: 00000000     0 FUNC    GLOBAL DEFAULT   UND closedir@LIBC
+    59: 00000000     0 FUNC    GLOBAL DEFAULT   UND expf@LIBC
+    60: 00000000     0 FUNC    GLOBAL DEFAULT   UND logf@LIBC
+    61: 00000000     0 FUNC    GLOBAL DEFAULT   UND tanhf@LIBC
+    62: 00000000     0 FUNC    GLOBAL DEFAULT   UND roundf@LIBC
+    63: 00000000     0 FUNC    GLOBAL DEFAULT   UND ceilf@LIBC
+    64: 00000000     0 FUNC    GLOBAL DEFAULT   UND floorf@LIBC
+    65: 00000000     0 FUNC    GLOBAL DEFAULT   UND acosf@LIBC
+    66: 00000000     0 FUNC    GLOBAL DEFAULT   UND acoshf@LIBC
+    67: 00000000     0 FUNC    GLOBAL DEFAULT   UND asinf@LIBC
+    68: 00000000     0 FUNC    GLOBAL DEFAULT   UND asinhf@LIBC
+    69: 00000000     0 FUNC    GLOBAL DEFAULT   UND atanf@LIBC
+    70: 00000000     0 FUNC    GLOBAL DEFAULT   UND atanhf@LIBC
+    71: 00000000     0 FUNC    GLOBAL DEFAULT   UND cosf@LIBC
+    72: 00000000     0 FUNC    GLOBAL DEFAULT   UND coshf@LIBC
+    73: 00000000     0 FUNC    GLOBAL DEFAULT   UND erff@LIBC
+    74: 00000000     0 FUNC    GLOBAL DEFAULT   UND log10f@LIBC
+    75: 00000000     0 FUNC    GLOBAL DEFAULT   UND sinf@LIBC
+    76: 00000000     0 FUNC    GLOBAL DEFAULT   UND sinhf@LIBC
+    77: 00000000     0 FUNC    GLOBAL DEFAULT   UND tanf@LIBC
+    78: 00000000     0 FUNC    GLOBAL DEFAULT   UND atan2f@LIBC
+    79: 00000000     0 FUNC    GLOBAL DEFAULT   UND fmodf@LIBC
+    80: 00000000     0 FUNC    GLOBAL DEFAULT   UND powf@LIBC
+    81: 00000000     0 FUNC    GLOBAL DEFAULT   UND log1pf@LIBC
+    82: 00000000     0 FUNC    GLOBAL DEFAULT   UND remainderf@LIBC
+    83: 00000000     0 FUNC    GLOBAL DEFAULT   UND expm1f@LIBC
+    84: 00000000     0 FUNC    GLOBAL DEFAULT   UND fegetround@LIBC
+    85: 00000000     0 FUNC    GLOBAL DEFAULT   UND fesetround@LIBC
+    86: 00000000     0 FUNC    GLOBAL DEFAULT   UND nearbyintf@LIBC
+    87: 00000000     0 FUNC    GLOBAL DEFAULT   UND truncf@LIBC
+    88: 00000000     0 FUNC    GLOBAL DEFAULT   UND erfcf@LIBC
+    89: 00000000     0 FUNC    GLOBAL DEFAULT   UND sincosf@LIBC
+    90: 00000000     0 FUNC    GLOBAL DEFAULT   UND dl_unwind_find_exidx@LIBC
+    91: 00000000     0 FUNC    GLOBAL DEFAULT   UND printf@LIBC
+    92: 00000000     0 FUNC    GLOBAL DEFAULT   UND puts@LIBC
+    93: 00000000     0 FUNC    GLOBAL DEFAULT   UND frexp@LIBC
+    94: 00000000     0 FUNC    GLOBAL DEFAULT   UND ceil@LIBC
+    95: 00000000     0 FUNC    GLOBAL DEFAULT   UND log2@LIBC
+    96: 00000000     0 FUNC    GLOBAL DEFAULT   UND exp2@LIBC
+    97: 00000000     0 FUNC    GLOBAL DEFAULT   UND atan@LIBC
+    98: 00000000     0 FUNC    GLOBAL DEFAULT   UND tanh@LIBC
+    99: 00000000     0 FUNC    GLOBAL DEFAULT   UND asin@LIBC
+   100: 00000000     0 FUNC    GLOBAL DEFAULT   UND acos@LIBC
+   101: 00000000     0 FUNC    GLOBAL DEFAULT   UND tan@LIBC
+   102: 00000000     0 FUNC    GLOBAL DEFAULT   UND sinh@LIBC
+   103: 00000000     0 FUNC    GLOBAL DEFAULT   UND asinh@LIBC
+   104: 00000000     0 FUNC    GLOBAL DEFAULT   UND log@LIBC
+   105: 00000000     0 FUNC    GLOBAL DEFAULT   UND atanh@LIBC
+   106: 00000000     0 FUNC    GLOBAL DEFAULT   UND acosh@LIBC
+   107: 00000000     0 FUNC    GLOBAL DEFAULT   UND cos@LIBC
+   108: 00000000     0 FUNC    GLOBAL DEFAULT   UND cosh@LIBC
+   109: 00000000     0 FUNC    GLOBAL DEFAULT   UND exp@LIBC
+   110: 00000000     0 FUNC    GLOBAL DEFAULT   UND sin@LIBC
+   111: 00000000     0 FUNC    GLOBAL DEFAULT   UND pow@LIBC
+   112: 00000000     0 FUNC    GLOBAL DEFAULT   UND atan2@LIBC
+   113: 00000000     0 OBJECT  GLOBAL DEFAULT   UND stdout@LIBC
+   114: 00000000     0 FUNC    GLOBAL DEFAULT   UND strstr@LIBC
+   115: 00000000     0 FUNC    GLOBAL DEFAULT   UND atoi@LIBC
+   116: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtoul@LIBC
+   117: 00000000     0 FUNC    GLOBAL DEFAULT   UND clock_gettime@LIBC
+   118: 00000000     0 FUNC    GLOBAL DEFAULT   UND __errno@LIBC
+   119: 00000000     0 FUNC    GLOBAL DEFAULT   UND wcslen@LIBC
+   120: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtof@LIBC
+   121: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtod@LIBC
+   122: 00000000     0 FUNC    GLOBAL DEFAULT   UND snprintf@LIBC
+   123: 00000000     0 FUNC    GLOBAL DEFAULT   UND strerror_r@LIBC
+   124: 00000000     0 FUNC    GLOBAL DEFAULT   UND abort@LIBC
+   125: 00000000     0 FUNC    GLOBAL DEFAULT   UND vfprintf@LIBC
+   126: 00000000     0 FUNC    GLOBAL DEFAULT   UND vasprintf@LIBC
+   127: 00000000     0 FUNC    GLOBAL DEFAULT   UND android_set_abort_message@LIBC
+   128: 00000000     0 FUNC    GLOBAL DEFAULT   UND openlog@LIBC
+   129: 00000000     0 FUNC    GLOBAL DEFAULT   UND syslog@LIBC
+   130: 00000000     0 FUNC    GLOBAL DEFAULT   UND closelog@LIBC
+   131: 00000000     0 OBJECT  GLOBAL DEFAULT   UND __sF@LIBC
+   132: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_broadcast@LIBC
+   133: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_cond_timedwait@LIBC
+   134: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_getspecific@LIBC
+   135: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutexattr_init@LIBC
+   136: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutexattr_settype@LIBC
+   137: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_mutexattr_destroy@LIBC
+   138: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_join@LIBC
+   139: 00000000     0 FUNC    GLOBAL DEFAULT   UND realloc@LIBC
+   140: 00000000     0 FUNC    GLOBAL DEFAULT   UND newlocale@LIBC
+   141: 00000000     0 FUNC    GLOBAL DEFAULT   UND uselocale@LIBC
+   142: 00000000     0 FUNC    GLOBAL DEFAULT   UND vsscanf@LIBC
+   143: 00000000     0 FUNC    GLOBAL DEFAULT   UND strftime_l@LIBC
+   144: 00000000     0 FUNC    GLOBAL DEFAULT   UND mbsrtowcs@LIBC
+   145: 00000000     0 FUNC    GLOBAL DEFAULT   UND freelocale@LIBC
+   146: 00000000     0 FUNC    GLOBAL DEFAULT   UND iswlower_l@LIBC
+   147: 00000000     0 FUNC    GLOBAL DEFAULT   UND wcsnrtombs@LIBC
+   148: 00000000     0 FUNC    GLOBAL DEFAULT   UND wcrtomb@LIBC
+   149: 00000000     0 FUNC    GLOBAL DEFAULT   UND mbsnrtowcs@LIBC
+   150: 00000000     0 FUNC    GLOBAL DEFAULT   UND mbrtowc@LIBC
+   151: 00000000     0 FUNC    GLOBAL DEFAULT   UND mbtowc@LIBC
+   152: 00000000     0 FUNC    GLOBAL DEFAULT   UND __ctype_get_mb_cur_max@LIBC
+   153: 00000000     0 FUNC    GLOBAL DEFAULT   UND mbrlen@LIBC
+   154: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtoll_l@LIBC
+   155: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtoull_l@LIBC
+   156: 00000000     0 FUNC    GLOBAL DEFAULT   UND strtold_l@LIBC
+   157: 00000000     0 FUNC    GLOBAL DEFAULT   UND vsnprintf@LIBC
+   158: 00000000     0 FUNC    WEAK   DEFAULT   UND __cxa_thread_atexit_impl@LIBC
+   159: 00000000     0 FUNC    GLOBAL DEFAULT   UND memset@LIBC
+   160: 00000000     0 FUNC    GLOBAL DEFAULT   UND pthread_once@LIBC
+   161: 00000000     0 FUNC    GLOBAL DEFAULT   UND memcpy@LIBC
+   162: 00000000     0 FUNC    GLOBAL DEFAULT   UND memmove@LIBC
+   163: 001fb601   800 FUNC    GLOBAL DEFAULT    15 mgc_submit@@MEGUVIZ_DEV
+   164: 001fbd15    86 FUNC    GLOBAL DEFAULT    15 mgc_ticket_release@@MEGUVIZ_DEV
+   165: 001f9541   708 FUNC    GLOBAL DEFAULT    15 mgc_domain_acquire@@MEGUVIZ_DEV
+   166: 001f9fa1   216 FUNC    GLOBAL DEFAULT    15 mgc_resource_release@@MEGUVIZ_DEV
+   167: 001fa311   228 FUNC    GLOBAL DEFAULT    15 mgc_lease_info@@MEGUVIZ_DEV
+   168: 001fbcef    38 FUNC    GLOBAL DEFAULT    15 mgc_ticket_retain@@MEGUVIZ_DEV
+   169: 001fa555   364 FUNC    GLOBAL DEFAULT    15 mgc_session_create@@MEGUVIZ_DEV
+   170: 001fb561   160 FUNC    GLOBAL DEFAULT    15 mgc_session_close@@MEGUVIZ_DEV
+   171: 001f985f    38 FUNC    GLOBAL DEFAULT    15 mgc_domain_retain@@MEGUVIZ_DEV
+   172: 001fbd6b    56 FUNC    GLOBAL DEFAULT    15 mgc_ticket_cancel@@MEGUVIZ_DEV
+   173: 001fbf0f    20 FUNC    GLOBAL DEFAULT    15 mgc_android_export_release_fence@@MEGUVIZ_DEV
+   174: 001f94c3    58 FUNC    GLOBAL DEFAULT    15 mgc_runtime_release@@MEGUVIZ_DEV
+   175: 001f9885   224 FUNC    GLOBAL DEFAULT    15 mgc_domain_release@@MEGUVIZ_DEV
+   176: 001f9971   232 FUNC    GLOBAL DEFAULT    15 mgc_domain_capability@@MEGUVIZ_DEV
+   177: 001f9211   124 FUNC    GLOBAL DEFAULT    15 mgc_test_entry@@MEGUVIZ_DEV
+   178: 001f928d   304 FUNC    GLOBAL DEFAULT    15 mgc_query_build_info@@MEGUVIZ_DEV
+   179: 001f94fd    56 FUNC    GLOBAL DEFAULT    15 mgc_runtime_close@@MEGUVIZ_DEV
+   180: 001f9833    44 FUNC    GLOBAL DEFAULT    15 mgc_domain_identity@@MEGUVIZ_DEV
+   181: 001f9a59   892 FUNC    GLOBAL DEFAULT    15 mgc_resource_create@@MEGUVIZ_DEV
+   182: 001f9f7b    38 FUNC    GLOBAL DEFAULT    15 mgc_resource_retain@@MEGUVIZ_DEV
+   183: 001fa079   520 FUNC    GLOBAL DEFAULT    15 mgc_lease_create@@MEGUVIZ_DEV
+   184: 001fa281    38 FUNC    GLOBAL DEFAULT    15 mgc_lease_retain@@MEGUVIZ_DEV
+   185: 001fbda3   104 FUNC    GLOBAL DEFAULT    15 mgc_ticket_query@@MEGUVIZ_DEV
+   186: 001f93bd   224 FUNC    GLOBAL DEFAULT    15 mgc_runtime_create@@MEGUVIZ_DEV
+   187: 001f949d    38 FUNC    GLOBAL DEFAULT    15 mgc_runtime_retain@@MEGUVIZ_DEV
+   188: 001fa2a7   104 FUNC    GLOBAL DEFAULT    15 mgc_lease_release@@MEGUVIZ_DEV
+   189: 001fa3f5   196 FUNC    GLOBAL DEFAULT    15 mgc_lease_map@@MEGUVIZ_DEV
+   190: 001fa4b9   156 FUNC    GLOBAL DEFAULT    15 mgc_lease_unmap@@MEGUVIZ_DEV
+   191: 001fbe0d   240 FUNC    GLOBAL DEFAULT    15 mgc_session_drain@@MEGUVIZ_DEV
+   192: 001fbefd    18 FUNC    GLOBAL DEFAULT    15 mgc_android_import@@MEGUVIZ_DEV

@@ -1,0 +1,13 @@
+Test project D:/MeguvizPack/MeguvizCompute/build/reports/sdk-windows-cpu-1793174300839020100/external-build
+    Start 1: public_c
+1/4 Test #1: public_c .........................   Passed    0.80 sec
+    Start 2: statistics
+2/4 Test #2: statistics .......................   Passed    0.83 sec
+    Start 3: private_graph
+3/4 Test #3: private_graph ....................   Passed    0.72 sec
+    Start 4: public_graph
+4/4 Test #4: public_graph .....................   Passed    1.24 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   3.60 sec

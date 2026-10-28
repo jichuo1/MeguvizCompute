@@ -1,0 +1,71 @@
+{
+  "result": "PASS",
+  "scope": "Android native CPU contracts and real ncnn CPU graphs",
+  "device": {
+    "serial": "emulator-5732",
+    "fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A1/11228894:userdebug/dev-keys",
+    "api": 34,
+    "abis": [
+      "x86_64",
+      "arm64-v8a"
+    ],
+    "hardware": "ranchu",
+    "page_size_bytes": 4096
+  },
+  "build_api": 27,
+  "build_abi": "x86_64",
+  "provider": "CPU_REFERENCE and NCNN_CPU",
+  "binaries": [
+    {
+      "name": "mgc_c_consumer",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_c_consumer",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_c_consumer",
+      "size": 20718952,
+      "sha256": "d6444217fc7213c812e1b90d4dc0d6a2823167c147d8c3a621b33a36f320327f",
+      "exit_code": 0
+    },
+    {
+      "name": "mgc_core_conformance",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_core_conformance",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_core_conformance",
+      "size": 20721624,
+      "sha256": "e46609b779857324dc0d59ce4c56903e254a87350e0aa903bd1603e223478afe",
+      "exit_code": 0
+    },
+    {
+      "name": "mgc_contract_tests",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_contract_tests",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_contract_tests",
+      "size": 20760064,
+      "sha256": "b53fd5280decb28eced2ca9339081a28f41d38b81499719a12a351e2488c6059",
+      "exit_code": 0
+    },
+    {
+      "name": "mgc_tensor_statistics",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_tensor_statistics",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_tensor_statistics",
+      "size": 20720856,
+      "sha256": "7ffae1b0f3b15dc951b1c3b8156c4ff0e6d98b792a89c8cef27a6216194ecc51",
+      "exit_code": 0
+    },
+    {
+      "name": "mgc_ncnn_c_graph",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_ncnn_c_graph",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_ncnn_c_graph",
+      "size": 20718936,
+      "sha256": "9219c4c165740b0ebc3ef6e19bf175bd1c9c4a0641eacfa9a7d85f285d60fbfe",
+      "exit_code": 0
+    },
+    {
+      "name": "mgc_headless",
+      "host_path": "D:\\MeguvizPack\\MeguvizCompute\\build\\android-x86_64-api27\\mgc_headless",
+      "device_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000/mgc_headless",
+      "size": 20702880,
+      "sha256": "b38c0c74f724324baefbf854155b6f2b9ef1573279e5f355cd271b16fda6b9b9",
+      "exit_code": 0
+    }
+  ],
+  "gpu_qualification": "INCONCLUSIVE - CPU-only build, emulator does not qualify ARM/Adreno/Mali",
+  "runtime_path": "/data/local/tmp/meguviz-01a1814c/run-1793173906140255000",
+  "instrumentation_preflight": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\instrumentation.log"
+}

@@ -1,0 +1,7 @@
+-- CMAKE_TOOLCHAIN_FILE = C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/30.0.16248370/build/cmake/android.toolchain.cmake
+-- CMAKE_INSTALL_PREFIX = C:/Program Files (x86)/MeguvizCompute
+-- NCNN_VERSION_STRING = 1.0.20261020
+-- Target arch: arm 32bit
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/MeguvizPack/MeguvizCompute/build/android-v7-api27

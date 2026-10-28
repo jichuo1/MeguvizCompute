@@ -1,0 +1,926 @@
+[0/2] Re-checking globbed directories...
+[1/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/blob.cpp.o
+[2/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/benchmark.cpp.o
+[3/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/allocator.cpp.o
+[4/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/c_api.cpp.o
+[5/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/command.cpp.o
+[6/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/datareader.cpp.o
+[7/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/cpu.cpp.o
+[8/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/expression.cpp.o
+[9/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/gpu.cpp.o
+[10/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer.cpp.o
+[11/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat.cpp.o
+[12/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o
+[13/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o
+[14/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o
+[15/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o
+[16/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/modelbin.cpp.o
+[17/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o
+[18/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/option.cpp.o
+[19/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/pipeline.cpp.o
+[20/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/paramdict.cpp.o
+[21/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o
+[22/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/net.cpp.o
+[23/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o
+[24/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o
+[25/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/simplestl.cpp.o
+[26/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/simplemath.cpp.o
+[27/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/simplevk.cpp.o
+[28/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_android.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/mat_pixel_android.cpp:25:9: warning: variable 'elempack' set but not used [-Wunused-but-set-variable]
+   25 |     int elempack;
+      |         ^
+D:/MeguvizPack/dependencies/ncnn/src/mat_pixel_android.cpp:64:9: warning: variable 'elempack' set but not used [-Wunused-but-set-variable]
+   64 |     int elempack;
+      |         ^
+D:/MeguvizPack/dependencies/ncnn/src/mat_pixel_android.cpp:103:9: warning: variable 'elempack' set but not used [-Wunused-but-set-variable]
+  103 |     int elempack;
+      |         ^
+D:/MeguvizPack/dependencies/ncnn/src/mat_pixel_android.cpp:142:9: warning: variable 'elempack' set but not used [-Wunused-but-set-variable]
+  142 |     int elempack;
+      |         ^
+4 warnings generated.
+[29/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/absval.cpp:14:65: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int AbsVal::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                 ^
+1 warning generated.
+[30/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/absval_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/absval_x86.cpp:92:81: warning: unused parameter 'opt' [-Wunused-parameter]
+   92 | int AbsVal_x86::forward_inplace_bf16s_fp16s(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                                 ^
+1 warning generated.
+[31/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/batchnorm.cpp:59:68: warning: unused parameter 'opt' [-Wunused-parameter]
+   59 | int BatchNorm::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                    ^
+1 warning generated.
+[32/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/batchnorm_x86.cpp:17:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/batchnorm_fp32.h:11:102: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void batchnorm_fp32(Mat& bottom_top_blob, const Mat& a_data, const Mat& b_data, const Option& opt)
+      |                                                                                                      ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/batchnorm_x86.cpp:20:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/batchnorm_bf16s.h:119:108: warning: unused parameter 'num_threads' [-Wunused-parameter]
+  119 | static void batchnorm_bf16s_per_element(unsigned short* ptr, const float* a, const float* b, int size, int num_threads)
+      |                                                                                                            ^
+2 warnings generated.
+[33/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/bias.cpp:30:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   30 | int Bias::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[34/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/bias_x86.cpp:15:67: warning: unused parameter 'opt' [-Wunused-parameter]
+   15 | int Bias_x86::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                   ^
+1 warning generated.
+[35/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/bnll.cpp:14:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int BNLL::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[36/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/bnll_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/bnll_fp32.h:11:59: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void bnll_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                           ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/bnll_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/bnll_bf16s.h:23:46: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void bnll_bf16s(Mat& a, const Option& opt)
+      |                                              ^
+2 warnings generated.
+[37/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o
+[38/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.o
+[39/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/convolution.cpp:156:262: warning: unused parameter 'opt' [-Wunused-parameter]
+  156 | static int convolution(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int stride_w, int stride_h, int dilation_w, int dilation_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                      ^
+1 warning generated.
+[40/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o
+[41/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolution.cpp:110:264: warning: unused parameter 'opt' [-Wunused-parameter]
+  110 | static int deconvolution(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int stride_w, int stride_h, int dilation_w, int dilation_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                        ^
+1 warning generated.
+[42/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o
+[43/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/dropout.cpp:21:66: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int Dropout::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                  ^
+1 warning generated.
+[44/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/dropout_x86.cpp:19:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/dropout_bf16s.h:16:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   16 | static void dropout_bf16s(Mat& a, float scale, const Option& opt)
+      |                                                              ^
+1 warning generated.
+[45/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o
+[46/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolution_x86.cpp:21:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolution_packed.h:574:275: warning: unused parameter 'opt' [-Wunused-parameter]
+  574 | static void deconvolution_packed(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                   ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolution_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolution_packed_bf16s.h:621:281: warning: unused parameter 'opt' [-Wunused-parameter]
+  621 | static void deconvolution_packed_bf16s(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                         ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolution_x86.cpp:684:9: warning: unused variable 'elempack' [-Wunused-variable]
+  684 |     int elempack = bottom_blob.elempack;
+      |         ^~~~~~~~
+3 warnings generated.
+[47/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/eltwise_x86.cpp:18:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/eltwise_fp32.h:11:125: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void eltwise_fp32(const std::vector<Mat>& bottom_blobs, Mat& top_blob, int op_type, const Mat& coeffs, const Option& opt)
+      |                                                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/eltwise_x86.cpp:21:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/eltwise_bf16s.h:23:126: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void eltwise_bf16s(const std::vector<Mat>& bottom_blobs, Mat& top_blob, int op_type, const Mat& coeffs, const Option& opt)
+      |                                                                                                                              ^
+2 warnings generated.
+[48/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/elu.cpp:21:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int ELU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                              ^
+1 warning generated.
+[49/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/elu_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/elu_x86.cpp:12:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/elu_fp32.h:11:71: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void elu_fp32(Mat& bottom_top_blob, float alpha, const Option& opt)
+      |                                                                       ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/elu_x86.cpp:15:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/elu_bf16s.h:23:58: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void elu_bf16s(Mat& a, float alpha, const Option& opt)
+      |                                                          ^
+2 warnings generated.
+[50/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/embed.cpp:50:133: warning: unused parameter 'opt' [-Wunused-parameter]
+   50 | static void embed(const Mat& bottom_blob, const Mat& weight_data, const Mat& bias_data, Mat& top_blob, int input_dim, const Option& opt)
+      |                                                                                                                                     ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/embed.cpp:86:168: warning: unused parameter 'opt' [-Wunused-parameter]
+   86 | static void embed_int8(const Mat& bottom_blob, const Mat& weight_data, float weight_data_int8_scale, const Mat& bias_data, Mat& top_blob, int input_dim, const Option& opt)
+      |                                                                                                                                                                        ^
+2 warnings generated.
+[51/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/exp.cpp:23:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | int Exp::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                              ^
+1 warning generated.
+[52/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o
+[53/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o
+[54/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o
+[55/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/input.cpp.o
+[56/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/innerproduct_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/innerproduct_fp.h:22:179: warning: unused parameter 'opt' [-Wunused-parameter]
+   22 | static void innerproduct(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                   ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/innerproduct_x86.cpp:33:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/innerproduct_bf16s.h:26:185: warning: unused parameter 'opt' [-Wunused-parameter]
+   26 | static void innerproduct_bf16s(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                         ^
+2 warnings generated.
+[57/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/log.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/log.cpp:23:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | int Log::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                              ^
+1 warning generated.
+[58/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.o
+[59/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o
+[60/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o
+[61/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o
+[62/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o
+[63/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_x86.cpp:23:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_2x2_pack4.h:4:93: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void pooling2x2s2_max_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_3x3_pack4.h:4:93: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void pooling3x3s2_max_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_x86.cpp:37:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_bf16s.h:25:91: warning: unused parameter 'opt' [-Wunused-parameter]
+   25 | static void pooling_global_max_bf16s(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                           ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_bf16s.h:152:91: warning: unused parameter 'opt' [-Wunused-parameter]
+  152 | static void pooling_global_avg_bf16s(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                           ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_bf16s.h:284:149: warning: unused parameter 'opt' [-Wunused-parameter]
+  284 | static void pooling_max_bf16s(const Mat& bottom_blob_bordered, Mat& top_blob, int kernel_w, int kernel_h, int stride_w, int stride_h, const Option& opt)
+      |                                                                                                                                                     ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/pooling_bf16s.h:470:276: warning: unused parameter 'opt' [-Wunused-parameter]
+  470 | static void pooling_avg_bf16s(const Mat& bottom_blob_bordered, const Mat& bottom_blob, Mat& top_blob, int kernel_w, int kernel_h, int stride_w, int stride_h, int pad_left, int pad_right, int pad_top, int pad_bottom, int pad_mode, int avgpool_count_include_pad, const Option& opt)
+      |                                                                                                                                                                                                                                                                                    ^
+6 warnings generated.
+[64/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3.h:4:118: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void conv3x3s1_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                      ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3.h:128:118: warning: unused parameter 'opt' [-Wunused-parameter]
+  128 | static void conv3x3s2_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                      ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:28:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_5x5.h:4:118: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void conv5x5s1_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                      ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:30:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd.h:115:97: warning: unused parameter 'nT' [-Wunused-parameter]
+  115 | static void transpose_pack_B_tile(const Mat& B, Mat& BT, int batch, int max_jj, int max_kk, int nT)
+      |                                                                                                 ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd.h:2552:136: warning: unused parameter 'nT' [-Wunused-parameter]
+ 2552 | static inline void conv3x3s1_winograd23_transform_input_tile(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd.h:3922:136: warning: unused parameter 'nT' [-Wunused-parameter]
+ 3922 | static inline void conv3x3s1_winograd43_transform_input_tile(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd.h:5799:136: warning: unused parameter 'nT' [-Wunused-parameter]
+ 5799 | static inline void conv3x3s1_winograd63_transform_input_tile(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                        ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:31:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_packed.h:1069:273: warning: unused parameter 'opt' [-Wunused-parameter]
+ 1069 | static void convolution_packed(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                 ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:35:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_packed_bf16s.h:1105:279: warning: unused parameter 'opt' [-Wunused-parameter]
+ 1105 | static void convolution_packed_bf16s(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                       ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:37:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_bf16s.h:16:142: warning: unused parameter 'nT' [-Wunused-parameter]
+   16 | static inline void conv3x3s1_winograd23_transform_input_tile_bf16s(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                              ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_bf16s.h:1428:142: warning: unused parameter 'nT' [-Wunused-parameter]
+ 1428 | static inline void conv3x3s1_winograd43_transform_input_tile_bf16s(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                              ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_bf16s.h:3364:142: warning: unused parameter 'nT' [-Wunused-parameter]
+ 3364 | static inline void conv3x3s1_winograd63_transform_input_tile_bf16s(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                              ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:41:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_int8.h:4:105: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void conv3x3s1_int8_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Option& opt)
+      |                                                                                                         ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_int8.h:70:105: warning: unused parameter 'opt' [-Wunused-parameter]
+   70 | static void conv3x3s2_int8_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Option& opt)
+      |                                                                                                         ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:43:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_packed_int8.h:850:205: warning: unused parameter 'opt' [-Wunused-parameter]
+  850 | static void convolution_packed_int8(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, const Option& opt)
+      |                                                                                                                                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:46:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_int8.h:210:102: warning: unused parameter 'nT' [-Wunused-parameter]
+  210 | static void transpose_pack_B_tile_int8(const Mat& B, Mat& BT, int batch, int max_jj, int max_kk, int nT)
+      |                                                                                                      ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_int8.h:3326:141: warning: unused parameter 'nT' [-Wunused-parameter]
+ 3326 | static inline void conv3x3s1_winograd23_transform_input_tile_int8(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                             ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_winograd_int8.h:4552:141: warning: unused parameter 'nT' [-Wunused-parameter]
+ 4552 | static inline void conv3x3s1_winograd43_transform_input_tile_int8(const Mat& bottom_blob, Mat& B, int j, int max_jj, int k, int max_kk, int nT)
+      |                                                                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_x86.cpp:50:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_pack1to4.h:4:126: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void conv3x3s1_pack1to4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                              ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution_3x3_pack1to4.h:534:126: warning: unused parameter 'opt' [-Wunused-parameter]
+  534 | static void conv3x3s2_pack1to4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                              ^
+20 warnings generated.
+[65/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/power.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/power.cpp:23:64: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | int Power::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                ^
+1 warning generated.
+[66/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/prelu.cpp:30:64: warning: unused parameter 'opt' [-Wunused-parameter]
+   30 | int PReLU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                ^
+1 warning generated.
+[67/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/prelu_x86.cpp:18:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/prelu_fp32.h:11:98: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void prelu_fp32(Mat& bottom_top_blob, const Mat& slope_data, int num_slope, const Option& opt)
+      |                                                                                                  ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/prelu_x86.cpp:21:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/prelu_bf16s.h:131:92: warning: unused parameter 'num_threads' [-Wunused-parameter]
+  131 | static void prelu_bf16s_per_element(unsigned short* ptr, const float* slope, int size, int num_threads)
+      |                                                                                            ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/prelu_bf16s.h:231:86: warning: unused parameter 'num_threads' [-Wunused-parameter]
+  231 | static void prelu_bf16s_single_slope(unsigned short* ptr, float slope, int size, int num_threads)
+      |                                                                                      ^
+3 warnings generated.
+[68/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/proposal.cpp:182:104: warning: unused parameter 'opt' [-Wunused-parameter]
+  182 | int Proposal::forward(const std::vector<Mat>& bottom_blobs, std::vector<Mat>& top_blobs, const Option& opt) const
+      |                                                                                                        ^
+1 warning generated.
+[69/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/relu.cpp:21:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int ReLU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[70/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o
+[71/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/relu_x86.cpp:19:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/relu_fp32.h:11:72: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void relu_fp32(Mat& bottom_top_blob, float slope, const Option& opt)
+      |                                                                        ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/relu_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/relu_bf16s.h:23:59: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void relu_bf16s(Mat& a, float slope, const Option& opt)
+      |                                                           ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/relu_x86.cpp:52:72: warning: unused parameter 'opt' [-Wunused-parameter]
+   52 | int ReLU_x86::forward_inplace_int8(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                        ^
+3 warnings generated.
+[72/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reduction_x86.cpp.o
+[73/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/reshape.cpp:470:48: warning: unused parameter 'opt' [-Wunused-parameter]
+  470 |                                  const Option& opt) const
+      |                                                ^
+1 warning generated.
+[74/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.o
+[75/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o
+[76/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/scale.cpp:44:78: warning: unused parameter 'opt' [-Wunused-parameter]
+   44 | int Scale::forward_inplace(std::vector<Mat>& bottom_top_blobs, const Option& opt) const
+      |                                                                              ^
+1 warning generated.
+[77/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/scale_x86.cpp:17:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/scale_fp32.h:11:111: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void scale_fp32(std::vector<Mat>& bottom_top_blobs, int bias_term, const Mat& bias_data, const Option& opt)
+      |                                                                                                               ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/scale_x86.cpp:20:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/scale_bf16s.h:196:111: warning: unused parameter 'num_threads' [-Wunused-parameter]
+  196 | static void scale_bf16s_per_element(unsigned short* ptr, const float* scale, const float* bias, int size, int num_threads)
+      |                                                                                                               ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/scale_bf16s.h:287:100: warning: unused parameter 'num_threads' [-Wunused-parameter]
+  287 | static void scale_bf16s_no_bias_per_element(unsigned short* ptr, const float* scale, int size, int num_threads)
+      |                                                                                                    ^
+3 warnings generated.
+[78/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/sigmoid.cpp:14:66: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int Sigmoid::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                  ^
+1 warning generated.
+[79/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sigmoid_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sigmoid_fp32.h:11:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void sigmoid_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                              ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sigmoid_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sigmoid_bf16s.h:23:49: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void sigmoid_bf16s(Mat& a, const Option& opt)
+      |                                                 ^
+2 warnings generated.
+[80/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o
+[81/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/softmax.cpp:102:66: warning: unused parameter 'opt' [-Wunused-parameter]
+  102 | int Softmax::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                  ^
+1 warning generated.
+[82/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.o
+[83/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.o
+[84/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/split.cpp.o
+[85/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/tanh.cpp:14:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int TanH::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[86/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/tanh_x86.cpp:12:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/tanh_fp32.h:11:59: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void tanh_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                           ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/tanh_x86.cpp:15:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/tanh_bf16s.h:23:46: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void tanh_bf16s(Mat& a, const Option& opt)
+      |                                              ^
+2 warnings generated.
+[87/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/threshold.cpp:21:68: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int Threshold::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                    ^
+1 warning generated.
+[88/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/tile.cpp.o
+[89/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o
+[90/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o
+[91/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/lstm_x86.cpp:25:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/lstm_int8.h:32:320: warning: unused parameter 'opt' [-Wunused-parameter]
+   32 | static void lstm_transform_weight_int8(const Mat& weight_xc, const Mat& weight_xc_int8_scales, const Mat& weight_hc, const Mat& weight_hc_int8_scales, const Mat& bias_c, Mat& weight_data_tm, Mat& weight_data_tm_int8_descales, Mat& bias_c_tm, int size, int num_output, int num_directions, int hidden_size, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                                                ^
+1 warning generated.
+[92/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/binaryop.cpp:38:83: warning: unused parameter 'opt' [-Wunused-parameter]
+   38 | static void binary_op_broadcast(const Mat& a, const Mat& b, Mat& c, const Option& opt)
+      |                                                                                   ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/binaryop.cpp:119:69: warning: unused parameter 'opt' [-Wunused-parameter]
+  119 | static void binary_op_scalar_inplace(Mat& a, float b, const Option& opt)
+      |                                                                     ^
+2 warnings generated.
+[93/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/unaryop.cpp:30:51: warning: unused parameter 'opt' [-Wunused-parameter]
+   30 | static int unary_op_inplace(Mat& a, const Option& opt)
+      |                                                   ^
+1 warning generated.
+[94/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/convolutiondepthwise.cpp:189:282: warning: unused parameter 'opt' [-Wunused-parameter]
+  189 | static int convolutiondepthwise(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int stride_w, int stride_h, int dilation_w, int dilation_h, int group, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                          ^
+1 warning generated.
+[95/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/unaryop_x86.cpp:29:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/unaryop_fp32.h:18:51: warning: unused parameter 'opt' [-Wunused-parameter]
+   18 | static int unary_op_inplace(Mat& a, const Option& opt)
+      |                                                   ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/unaryop_x86.cpp:32:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/unaryop_bf16s.h:5:57: warning: unused parameter 'opt' [-Wunused-parameter]
+    5 | static int unary_op_inplace_bf16s(Mat& a, const Option& opt)
+      |                                                         ^
+2 warnings generated.
+[96/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_pack4.h:13:125: warning: unused parameter 'opt' [-Wunused-parameter]
+   13 | static void convdw3x3s1_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                             ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_pack4.h:376:125: warning: unused parameter 'opt' [-Wunused-parameter]
+  376 | static void convdw3x3s2_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp:23:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_5x5_pack4.h:13:125: warning: unused parameter 'opt' [-Wunused-parameter]
+   13 | static void convdw5x5s1_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                             ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_5x5_pack4.h:346:125: warning: unused parameter 'opt' [-Wunused-parameter]
+  346 | static void convdw5x5s2_pack4_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                             ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp:34:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3.h:4:120: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void convdw3x3s1_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3.h:121:120: warning: unused parameter 'opt' [-Wunused-parameter]
+  121 | static void convdw3x3s2_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, const Option& opt)
+      |                                                                                                                        ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp:37:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:4:107: warning: unused parameter 'opt' [-Wunused-parameter]
+    4 | static void convdw3x3s1_int8_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Option& opt)
+      |                                                                                                           ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:67:107: warning: unused parameter 'opt' [-Wunused-parameter]
+   67 | static void convdw3x3s2_int8_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Option& opt)
+      |                                                                                                           ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:132:168: warning: unused parameter 'opt' [-Wunused-parameter]
+  132 | static void convdw3x3s1_int8_dequant_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, std::vector<float> scales_dequant, const Option& opt)
+      |                                                                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:197:168: warning: unused parameter 'opt' [-Wunused-parameter]
+  197 | static void convdw3x3s2_int8_dequant_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, std::vector<float> scales_dequant, const Option& opt)
+      |                                                                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:265:168: warning: unused parameter 'opt' [-Wunused-parameter]
+  265 | static void convdw3x3s1_int8_requant_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, std::vector<float> scales_requant, const Option& opt)
+      |                                                                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolutiondepthwise_3x3_int8.h:329:168: warning: unused parameter 'opt' [-Wunused-parameter]
+  329 | static void convdw3x3s2_int8_requant_sse(const Mat& bottom_blob, Mat& top_blob, const Mat& _kernel, const Mat& _bias, std::vector<float> scales_requant, const Option& opt)
+      |                                                                                                                                                                        ^
+12 warnings generated.
+[97/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:40:88: warning: unused parameter 'opt' [-Wunused-parameter]
+   40 | static void binary_op_scalar(const Mat& a, float b, Mat& c, int op_type, const Option& opt)
+      |                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:55:99: warning: unused parameter 'opt' [-Wunused-parameter]
+   55 | static void binary_op_no_broadcast(const Mat& a, const Mat& b, Mat& c, int op_type, const Option& opt)
+      |                                                                                                   ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:160:82: warning: unused parameter 'opt' [-Wunused-parameter]
+  160 | static void binary_op_scalar_inplace(Mat& a, float b, int op_type, const Option& opt)
+      |                                                                                  ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:442:103: warning: unused parameter 'opt' [-Wunused-parameter]
+  442 | static void binary_op_scalar_bf16s(const Mat& a, unsigned short b, Mat& c, int op_type, const Option& opt)
+      |                                                                                                       ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:457:105: warning: unused parameter 'opt' [-Wunused-parameter]
+  457 | static void binary_op_no_broadcast_bf16s(const Mat& a, const Mat& b, Mat& c, int op_type, const Option& opt)
+      |                                                                                                         ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/binaryop_x86.cpp:562:97: warning: unused parameter 'opt' [-Wunused-parameter]
+  562 | static void binary_op_scalar_inplace_bf16s(Mat& a, unsigned short b, int op_type, const Option& opt)
+      |                                                                                                 ^
+6 warnings generated.
+[98/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o
+[99/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o
+[100/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o
+[101/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o
+[102/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o
+[103/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/normalize_x86.cpp.o
+[104/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o
+[105/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o
+[106/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o
+[107/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o
+[108/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolutiondepthwise.cpp:114:284: warning: unused parameter 'opt' [-Wunused-parameter]
+  114 | static int deconvolutiondepthwise(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int stride_w, int stride_h, int dilation_w, int dilation_h, int group, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                            ^
+1 warning generated.
+[109/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/interp_x86.cpp:38:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/interp_fp32.h:11:210: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void interp_fp32(const Mat& bottom_blob, Mat& top_blob, int resize_type, int align_corner, float height_scale, float width_scale, int output_height, int output_width, int has_output_size, const Option& opt)
+      |                                                                                                                                                                                                                  ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/interp_x86.cpp:126:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/interp_bf16s.h:1425:211: warning: unused parameter 'opt' [-Wunused-parameter]
+ 1425 | static void interp_bf16s(const Mat& bottom_blob, Mat& top_blob, int resize_type, int align_corner, float height_scale, float width_scale, int output_height, int output_width, int has_output_size, const Option& opt)
+      |                                                                                                                                                                                                                   ^
+2 warnings generated.
+[110/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolutiondepthwise_x86.cpp:21:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deconvolutiondepthwise_fp32.h:11:294: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void deconvolutiondepthwise_fp32(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int bias_term, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                      ^
+1 warning generated.
+[111/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o
+[112/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/shufflechannel_x86.cpp.o
+[113/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/instancenorm.cpp:39:71: warning: unused parameter 'opt' [-Wunused-parameter]
+   39 | int InstanceNorm::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                       ^
+1 warning generated.
+[114/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/permute_x86.cpp.o
+[115/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/instancenorm_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/instancenorm_x86.cpp:17:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/instancenorm_fp32.h:11:135: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void instancenorm_fp32(Mat& bottom_top_blob, float eps, int affine, const Mat& gamma_data, const Mat& beta_data, const Option& opt)
+      |                                                                                                                                       ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/instancenorm_x86.cpp:43:81: warning: unused parameter 'opt' [-Wunused-parameter]
+   43 | int InstanceNorm_x86::forward_inplace_bf16s(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                                 ^
+2 warnings generated.
+[116/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/clip.cpp:24:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   24 | int Clip::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[117/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/clip_x86.cpp:20:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/clip_bf16s.h:16:68: warning: unused parameter 'opt' [-Wunused-parameter]
+   16 | static void clip_bf16s(Mat& a, float min, float max, const Option& opt)
+      |                                                                    ^
+1 warning generated.
+[118/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o
+[119/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o
+[120/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o
+[121/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o
+[122/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.o
+[123/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.o
+[124/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o
+[125/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.o
+[126/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o
+[127/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o
+[128/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/roialign_x86.cpp:10:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/roialign_fp32.h:205:205: warning: unused parameter 'opt' [-Wunused-parameter]
+  205 | static void roialign_fp32(const Mat& bottom_blob, const Mat& roi_blob, Mat& top_blob, int pooled_width, int pooled_height, float spatial_scale, int sampling_ratio, int aligned, int version, const Option& opt)
+      |                                                                                                                                                                                                             ^
+1 warning generated.
+[129/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o
+[130/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o
+[131/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.o
+[132/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o
+[133/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_x86.cpp:18:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_fp16.h:9:84: warning: unused parameter 'opt' [-Wunused-parameter]
+    9 | static void cast_fp32_to_fp16(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                    ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_fp16.h:73:84: warning: unused parameter 'opt' [-Wunused-parameter]
+   73 | static void cast_fp16_to_fp32(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                    ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_x86.cpp:19:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_bf16.h:18:84: warning: unused parameter 'opt' [-Wunused-parameter]
+   18 | static void cast_fp32_to_bf16(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                    ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cast_bf16.h:102:84: warning: unused parameter 'opt' [-Wunused-parameter]
+  102 | static void cast_bf16_to_fp32(const Mat& bottom_blob, Mat& top_blob, const Option& opt)
+      |                                                                                    ^
+4 warnings generated.
+[134/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/hardsigmoid.cpp:26:70: warning: unused parameter 'opt' [-Wunused-parameter]
+   26 | int HardSigmoid::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                      ^
+1 warning generated.
+[135/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardsigmoid_x86.cpp:19:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardsigmoid_fp32.h:11:117: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void hardsigmoid_fp32(Mat& bottom_top_blob, float alpha, float beta, float lower, float upper, const Option& opt)
+      |                                                                                                                     ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardsigmoid_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardsigmoid_bf16s.h:23:78: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void hardsigmoid_bf16s(Mat& a, float alpha, float beta, const Option& opt)
+      |                                                                              ^
+2 warnings generated.
+[136/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o
+[137/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/selu.cpp:22:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   22 | int SELU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[138/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/selu_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/selu_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/selu_fp32.h:11:86: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void selu_fp32(Mat& bottom_top_blob, float alpha, float lambda, const Option& opt)
+      |                                                                                      ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/selu_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/selu_bf16s.h:23:80: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void selu_bf16s(Mat& a, float alphaxlambda, float lambda, const Option& opt)
+      |                                                                                ^
+2 warnings generated.
+[139/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/hardswish.cpp:26:68: warning: unused parameter 'opt' [-Wunused-parameter]
+   26 | int HardSwish::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                    ^
+1 warning generated.
+[140/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardswish_x86.cpp:19:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardswish_fp32.h:11:115: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void hardswish_fp32(Mat& bottom_top_blob, float alpha, float beta, float lower, float upper, const Option& opt)
+      |                                                                                                                   ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardswish_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/hardswish_bf16s.h:23:102: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void hardswish_bf16s(Mat& a, float alpha, float beta, float lower, float upper, const Option& opt)
+      |                                                                                                      ^
+2 warnings generated.
+[141/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o
+[142/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o
+[143/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pixelshuffle_x86.cpp.o
+[144/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o
+[145/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/mish.cpp:14:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int Mish::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[146/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/mish_x86.cpp:12:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/mish_fp32.h:11:59: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void mish_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                           ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/mish_x86.cpp:15:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/mish_bf16s.h:23:46: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void mish_bf16s(Mat& a, const Option& opt)
+      |                                              ^
+2 warnings generated.
+[147/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o
+[148/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/swish.cpp:14:64: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int Swish::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                ^
+1 warning generated.
+[149/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/swish_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/swish_fp32.h:11:60: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void swish_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                            ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/swish_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/swish_bf16s.h:23:47: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void swish_bf16s(Mat& a, const Option& opt)
+      |                                               ^
+2 warnings generated.
+[150/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/groupnorm.cpp:104:68: warning: unused parameter 'opt' [-Wunused-parameter]
+  104 | int GroupNorm::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                    ^
+1 warning generated.
+[151/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/gemm.cpp:437:166: warning: unused parameter 'opt' [-Wunused-parameter]
+  437 | static void gemm_transB(const Mat& A, const Mat& BT, const Mat& C, Mat& top_blob, float alpha, float beta, int broadcast_type_C, int output_transpose, const Option& opt)
+      |                                                                                                                                                                      ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/gemm.cpp:669:228: warning: unused parameter 'opt' [-Wunused-parameter]
+  669 | static void gemm_transB_int8(const Mat& A_int8, const Mat& BT_int8, const Mat& A_int8_scales, float BT_int8_scale, const Mat& C, Mat& top_blob, float alpha, float beta, int broadcast_type_C, int output_transpose, const Option& opt)
+      |                                                                                                                                                                                                                                    ^
+2 warnings generated.
+[152/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/groupnorm_x86.cpp.o
+[153/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/layernorm.cpp:77:68: warning: unused parameter 'opt' [-Wunused-parameter]
+   77 | int LayerNorm::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                    ^
+1 warning generated.
+[154/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/layernorm_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/layernorm_x86.cpp:137:78: warning: unused parameter 'opt' [-Wunused-parameter]
+  137 | int LayerNorm_x86::forward_inplace_bf16s(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                              ^
+1 warning generated.
+[155/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/softplus.cpp:14:67: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int Softplus::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                   ^
+1 warning generated.
+[156/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o
+[157/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/gelu.cpp:21:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int GELU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[158/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/multiheadattention_x86.cpp.o
+[159/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o
+[160/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/convolution1d.cpp:102:220: warning: unused parameter 'opt' [-Wunused-parameter]
+  102 | static int convolution1d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int stride_w, int dilation_w, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                            ^
+1 warning generated.
+[161/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gelu_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gelu_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gelu_fp32.h:11:74: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void gelu_fp32(Mat& bottom_top_blob, int fast_gelu, const Option& opt)
+      |                                                                          ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gelu_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gelu_bf16s.h:23:61: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void gelu_bf16s(Mat& a, int fast_gelu, const Option& opt)
+      |                                                             ^
+2 warnings generated.
+[162/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gemm_x86.cpp.o
+[163/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/convolutiondepthwise1d.cpp:108:240: warning: unused parameter 'opt' [-Wunused-parameter]
+  108 | static int convolutiondepthwise1d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int stride_w, int dilation_w, int group, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                ^
+1 warning generated.
+[164/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution1d_x86.cpp:18:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution1d_packed.h:1066:231: warning: unused parameter 'opt' [-Wunused-parameter]
+ 1066 | static void convolution1d_packed(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int dilation_w, int stride_w, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                       ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution1d_x86.cpp:21:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/convolution1d_packed_bf16s.h:1102:237: warning: unused parameter 'opt' [-Wunused-parameter]
+ 1102 | static void convolution1d_packed_bf16s(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data_tm, const Mat& bias_data, int kernel_w, int dilation_w, int stride_w, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                             ^
+2 warnings generated.
+[165/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o
+[166/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o
+[167/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o
+[168/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o
+[169/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/matmul.cpp:21:60: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | static void transpose(const Mat& X, Mat& XT, const Option& opt)
+      |                                                            ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/matmul.cpp:40:84: warning: unused parameter 'opt' [-Wunused-parameter]
+   40 | static void matmul_transb(const Mat& A, const Mat& B, Mat& top_blob, const Option& opt)
+      |                                                                                    ^
+2 warnings generated.
+[170/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/matmul_x86.cpp.o
+[171/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolution1d.cpp:103:222: warning: unused parameter 'opt' [-Wunused-parameter]
+  103 | static int deconvolution1d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int stride_w, int dilation_w, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                              ^
+1 warning generated.
+[172/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolutiondepthwise1d.cpp:107:242: warning: unused parameter 'opt' [-Wunused-parameter]
+  107 | static int deconvolutiondepthwise1d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int stride_w, int dilation_w, int group, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                  ^
+1 warning generated.
+[173/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolution3d.cpp:101:310: warning: unused parameter 'opt' [-Wunused-parameter]
+  101 | static int deconvolution3d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int kernel_d, int stride_w, int stride_h, int stride_d, int dilation_w, int dilation_h, int dilation_d, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                                      ^
+1 warning generated.
+[174/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/deconvolutiondepthwise3d.cpp:105:330: warning: unused parameter 'opt' [-Wunused-parameter]
+  105 | static int deconvolutiondepthwise3d(const Mat& bottom_blob, Mat& top_blob, const Mat& weight_data, const Mat& bias_data, int kernel_w, int kernel_h, int kernel_d, int stride_w, int stride_h, int stride_d, int dilation_w, int dilation_h, int dilation_d, int group, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                                                          ^
+1 warning generated.
+[175/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/deformableconv2d.cpp.o
+[176/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o
+[177/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/glu.cpp.o
+[178/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deformableconv2d_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deformableconv2d_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deformableconv2d_im2col.h:11:298: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void deformableconv2d_im2col(const Mat& bottom_blob, const Mat& offset_unpacked, const Mat& mask_unpacked, Mat& bottom_im2col, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int pad_left, int pad_top, int outw, int outh, int has_mask, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                          ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deformableconv2d_x86.cpp:25:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/deformableconv2d_packed.h:11:323: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void deformableconv2d_packed(const std::vector<Mat>& bottom_blobs, Mat& top_blob, const Mat& weight_data_packed, const Mat& bias_data, int kernel_w, int kernel_h, int dilation_w, int dilation_h, int stride_w, int stride_h, int pad_left, int pad_top, int activation_type, const Mat& activation_params, const Option& opt)
+      |                                                                                                                                                                                                                                                                                                                                   ^
+2 warnings generated.
+[179/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/fold.cpp.o
+[180/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/unfold.cpp.o
+[181/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/gridsample.cpp.o
+[182/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/cumulativesum.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/cumulativesum.cpp:21:72: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int CumulativeSum::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                        ^
+1 warning generated.
+[183/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cumulativesum_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/cumulativesum_x86.cpp:18:76: warning: unused parameter 'opt' [-Wunused-parameter]
+   18 | int CumulativeSum_x86::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                            ^
+1 warning generated.
+[184/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/copyto.cpp.o
+[185/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/gridsample_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_x86.cpp:23:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bilinear_apply_interpolation.h:188:124: warning: unused parameter 'opt' [-Wunused-parameter]
+  188 | static void gridsample_2d_bilinear_apply_interpolation_p4(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                            ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bilinear_apply_interpolation.h:226:124: warning: unused parameter 'opt' [-Wunused-parameter]
+  226 | static void gridsample_3d_bilinear_apply_interpolation_p4(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                            ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bilinear_apply_interpolation.h:278:124: warning: unused parameter 'opt' [-Wunused-parameter]
+  278 | static void gridsample_2d_bilinear_apply_interpolation_p1(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                            ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bilinear_apply_interpolation.h:314:124: warning: unused parameter 'opt' [-Wunused-parameter]
+  314 | static void gridsample_3d_bilinear_apply_interpolation_p1(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                            ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bicubic_apply_interpolation.h:157:117: warning: unused parameter 'opt' [-Wunused-parameter]
+  157 | static void gridsample_2d_bicubic_apply_interpolation_p4(const Mat& src, Mat& dst, Mat& offset_value, const Option& opt)
+      |                                                                                                                     ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_bicubic_apply_interpolation.h:227:117: warning: unused parameter 'opt' [-Wunused-parameter]
+  227 | static void gridsample_2d_bicubic_apply_interpolation_p1(const Mat& src, Mat& dst, Mat& offset_value, const Option& opt)
+      |                                                                                                                     ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_x86.cpp:25:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_nearest_apply_interpolation.h:62:120: warning: unused parameter 'opt' [-Wunused-parameter]
+   62 | static void gridsample_nearest_apply_interpolation_p4(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                        ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/gridsample_nearest_apply_interpolation.h:91:120: warning: unused parameter 'opt' [-Wunused-parameter]
+   91 | static void gridsample_nearest_apply_interpolation_p1(const Mat& src, Mat& dst, const Mat& offset_value, const Option& opt)
+      |                                                                                                                        ^
+8 warnings generated.
+[186/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/erf.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/erf.cpp:14:62: warning: unused parameter 'opt' [-Wunused-parameter]
+   14 | int Erf::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                              ^
+1 warning generated.
+[187/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/erf_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/erf_x86.cpp:24:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/erf_fp32.h:11:58: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void erf_fp32(Mat& bottom_top_blob, const Option& opt)
+      |                                                          ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/erf_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/erf_bf16s.h:23:45: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void erf_bf16s(Mat& a, const Option& opt)
+      |                                             ^
+2 warnings generated.
+[188/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/diag.cpp.o
+[189/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/celu.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/celu.cpp:21:63: warning: unused parameter 'opt' [-Wunused-parameter]
+   21 | int CELU::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                               ^
+1 warning generated.
+[190/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/shrink.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/shrink.cpp:22:65: warning: unused parameter 'opt' [-Wunused-parameter]
+   22 | int Shrink::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                 ^
+1 warning generated.
+[191/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/rmsnorm.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/rmsnorm.cpp:63:66: warning: unused parameter 'opt' [-Wunused-parameter]
+   63 | int RMSNorm::forward_inplace(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                  ^
+1 warning generated.
+[192/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/spectrogram.cpp.o
+[193/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/rmsnorm_x86.cpp.o
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/rmsnorm_x86.cpp:137:76: warning: unused parameter 'opt' [-Wunused-parameter]
+  137 | int RMSNorm_x86::forward_inplace_bf16s(Mat& bottom_top_blob, const Option& opt) const
+      |                                                                            ^
+1 warning generated.
+[194/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/inversespectrogram.cpp.o
+[195/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/flip.cpp.o
+[196/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/rotaryembed.cpp.o
+[197/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/sdpa.cpp.o
+[198/215] Building C object CMakeFiles/mgc_c_consumer.dir/examples/c_consumer.c.o
+[199/215] Building C object CMakeFiles/mgc_core_conformance.dir/tests/core_conformance.c.o
+[200/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/rotaryembed_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/rotaryembed_x86.cpp:22:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/rotaryembed_fp32.h:11:144: warning: unused parameter 'opt' [-Wunused-parameter]
+   11 | static void rotaryembed_fp32(const Mat& bottom_blob, const Mat& cos_cache, const Mat& sin_cache, Mat& top_blob, int interleaved, const Option& opt)
+      |                                                                                                                                                ^
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/rotaryembed_x86.cpp:25:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/rotaryembed_bf16s.h:23:145: warning: unused parameter 'opt' [-Wunused-parameter]
+   23 | static void rotaryembed_bf16s(const Mat& bottom_blob, const Mat& cos_cache, const Mat& sin_cache, Mat& top_blob, int interleaved, const Option& opt)
+      |                                                                                                                                                 ^
+2 warnings generated.
+[201/215] Building C object CMakeFiles/mgc_tensor_statistics.dir/examples/tensor_statistics.c.o
+[202/215] Building C object CMakeFiles/mgc_ncnn_c_graph.dir/examples/ncnn_c_graph.c.o
+[203/215] Building CXX object CMakeFiles/mgc_contract_tests.dir/tests/lifecycle.cpp.o
+[204/215] Building CXX object CMakeFiles/mgc_headless.dir/examples/headless.cpp.o
+[205/215] Building CXX object CMakeFiles/meguviz_compute_core.dir/src/core/runtime.cpp.o
+[206/215] Building CXX object ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sdpa_x86.cpp.o
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_x86.cpp:27:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_prefill.h:287:100: warning: unused parameter 'opt' [-Wunused-parameter]
+  287 | static void sdpa_pack_mask(const Mat& attn_mask_blob, Mat& packed_mask, int block_m, const Option& opt)
+      |                                                                                                    ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_prefill.h:3715:15: warning: unused variable 'nT' [-Wunused-variable]
+ 3715 |     const int nT = key.h >= panel_width ? std::min(opt.num_threads, num_tasks) : 1;
+      |               ^~
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_x86.cpp:30:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_prefill_bf16s.h:396:106: warning: unused parameter 'opt' [-Wunused-parameter]
+  396 | static void sdpa_pack_mask_bf16s(const Mat& attn_mask_blob, Mat& packed_mask, int block_m, const Option& opt)
+      |                                                                                                          ^
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_prefill_bf16s.h:4935:15: warning: unused variable 'nT' [-Wunused-variable]
+ 4935 |     const int nT = key.h >= panel_width ? std::min(opt.num_threads, num_tasks) : 1;
+      |               ^~
+In file included from D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_x86.cpp:33:
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_kvcache.h:104:19: warning: unused variable 'nT' [-Wunused-variable]
+  104 |         const int nT = cur_key.h >= panel_width ? std::min(opt.num_threads, num_tasks) : 1;
+      |                   ^~
+D:/MeguvizPack/dependencies/ncnn/src/layer/x86/sdpa_kvcache.h:188:19: warning: unused variable 'nT' [-Wunused-variable]
+  188 |         const int nT = cur_key.h >= panel_width ? std::min(opt.num_threads, num_tasks) : 1;
+      |                   ^~
+6 warnings generated.
+[207/215] Linking CXX static library ncnn\src\libncnn.a
+[208/215] Linking CXX static library libmeguviz_compute_core.a
+[209/215] Linking CXX executable mgc_c_consumer
+[210/215] Linking CXX executable mgc_core_conformance
+[211/215] Linking CXX executable mgc_contract_tests
+[212/215] Linking CXX executable mgc_tensor_statistics
+[213/215] Linking CXX executable mgc_ncnn_c_graph
+[214/215] Linking CXX executable mgc_headless

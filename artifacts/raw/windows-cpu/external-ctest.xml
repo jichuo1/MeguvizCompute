@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="4"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="3"
+	timestamp="2026-10-28T15:58:38"
+	>
+	<testcase name="public_c" classname="public_c" time="0.800406" status="run">
+		<properties/>
+		<system-out>PASS public C COPY, consumer output survives session close
+</system-out>
+	</testcase>
+	<testcase name="statistics" classname="statistics" time="0.830775" status="run">
+		<properties/>
+		<system-out>PASS independent tensor statistics and normalization
+</system-out>
+	</testcase>
+	<testcase name="private_graph" classname="private_graph" time="0.718334" status="run">
+		<properties/>
+		<system-out>{"provider":"ncnn-cpu","effective_options":{"vulkan":false,"packing":false,"fp16_storage":false,"fp16_arithmetic":false,"num_threads":1},"synthetic_graph":"conv1x1_customscale","oracle":"PASS","private_sdk_fingerprint":"c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa"}
+</system-out>
+	</testcase>
+	<testcase name="public_graph" classname="public_graph" time="1.24212" status="run">
+		<properties/>
+		<system-out>ncnn graph completion query=0 status=0 terminal=1
+PASS pure C API resource/ticket real ncnn Input/ReLU graph vs scalar oracle
+</system-out>
+	</testcase>
+</testsuite>

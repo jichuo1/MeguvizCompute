@@ -1,0 +1,11 @@
+[0/2] Re-checking globbed directories...
+[1/11] Building C object CMakeFiles\mgc_c_consumer.dir\examples\c_consumer.c.obj
+[2/11] Building C object CMakeFiles\mgc_core_conformance.dir\tests\core_conformance.c.obj
+[3/11] Building C object CMakeFiles\mgc_tensor_statistics.dir\examples\tensor_statistics.c.obj
+[4/11] Building CXX object CMakeFiles\mgc_contract_tests.dir\tests\lifecycle.cpp.obj
+[5/11] Building CXX object CMakeFiles\meguviz_compute_core.dir\src\core\runtime.cpp.obj
+[6/11] Linking CXX static library meguviz_compute_core.lib
+[7/11] Linking CXX executable mgc_tensor_statistics.exe
+[8/11] Linking CXX executable mgc_c_consumer.exe
+[9/11] Linking CXX executable mgc_contract_tests.exe
+[10/11] Linking CXX executable mgc_core_conformance.exe

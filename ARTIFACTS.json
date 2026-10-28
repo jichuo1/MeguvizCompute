@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "project": "MeguvizCompute",
+  "release_qualified": false,
+  "artifacts": {
+    "windows-cpu": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+      "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+    },
+    "android-arm64-api27": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\package-manifest.json",
+      "sha256": "aee95195d17fc9dfd60cf8fe1bc736ec2c669dcf8bf444bda02480da934dc024"
+    },
+    "android-v7-api27": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\package-manifest.json",
+      "sha256": "b812dc86793e02c2e45b0b798fa9416f08b3b0845d529515cf5199bdaa7ffab1"
+    },
+    "android-cpu": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\result.json",
+      "sha256": "b0a081b22dbbb7f1af232de75c97fb5db1af7264ce14c9cb62bf71c18ed276b3"
+    },
+    "shader": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\summary.json",
+      "sha256": "dfe591a01c8e05a3f0f2372cdb240694fea4d7b44298ce8096d1c0c08e836aef"
+    },
+    "windows-reference": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\package-manifest.json",
+      "sha256": "a9480e61c1b1c17f047ad8384a21e5673c06a8ddecdbffd8abe387231fa63ab6"
+    }
+  },
+  "source_manifest_sha256": "4ac40cd6b9d7c0e548e13efafa268594aa97ec250cbfcee360832f48680ff9a3",
+  "portable_raw_evidence": "artifacts/raw"
+}

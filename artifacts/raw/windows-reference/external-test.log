@@ -1,0 +1,9 @@
+Test project D:/MeguvizPack/MeguvizCompute/build/reports/sdk-windows-reference-1793174258134134100/external-build
+    Start 1: public_c
+1/2 Test #1: public_c .........................   Passed    0.98 sec
+    Start 2: statistics
+2/2 Test #2: statistics .......................   Passed    0.94 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   1.93 sec

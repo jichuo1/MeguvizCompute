@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="6"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="3"
+	timestamp="2026-10-28T15:58:21"
+	>
+	<testcase name="public_c_copy" classname="public_c_copy" time="0.4881" status="run">
+		<properties>
+			<property name="cmake_labels" value="abi;bootstrap;consumer"/>
+		</properties>
+		<system-out>PASS public C COPY, consumer output survives session close
+</system-out>
+	</testcase>
+	<testcase name="public_core_conformance" classname="public_core_conformance" time="0.533533" status="run">
+		<properties>
+			<property name="cmake_labels" value="abi;consumer;lifecycle"/>
+		</properties>
+		<system-out>{"scope":"production_cpu_public_abi","result":"PASS","old_size":true,"reject_preserves_input":true,"copy":true,"callback_once":true,"owned_output_survives":true}
+</system-out>
+	</testcase>
+	<testcase name="lifecycle" classname="lifecycle" time="0.987624" status="run">
+		<properties>
+			<property name="cmake_labels" value="lifecycle"/>
+		</properties>
+		<system-out>PASS bounded queue, cancel, late callback, continued drain, retained map, domain mismatch, budget, second session
+</system-out>
+	</testcase>
+	<testcase name="tensor_statistics" classname="tensor_statistics" time="0.544976" status="run">
+		<properties>
+			<property name="cmake_labels" value="consumer;kernels"/>
+		</properties>
+		<system-out>PASS independent tensor statistics and normalization
+</system-out>
+	</testcase>
+	<testcase name="ncnn_public_c_graph" classname="ncnn_public_c_graph" time="0.517209" status="run">
+		<properties>
+			<property name="cmake_labels" value="abi;consumer;provider"/>
+		</properties>
+		<system-out>ncnn graph completion query=0 status=0 terminal=1
+PASS pure C API resource/ticket real ncnn Input/ReLU graph vs scalar oracle
+</system-out>
+	</testcase>
+	<testcase name="ncnn_synthetic_graph" classname="ncnn_synthetic_graph" time="0.0813157" status="run">
+		<properties>
+			<property name="cmake_labels" value="consumer;provider"/>
+		</properties>
+		<system-out>{"provider":"ncnn-cpu","effective_options":{"vulkan":false,"packing":false,"fp16_storage":false,"fp16_arithmetic":false,"num_threads":1},"synthetic_graph":"conv1x1_customscale","oracle":"PASS","private_sdk_fingerprint":"c9f5980884b0d1e400eb535c6063e71c6302963aded0ea1bdc20b4e0192d79aa"}
+</system-out>
+	</testcase>
+</testsuite>

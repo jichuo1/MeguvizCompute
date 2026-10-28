@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "kind": "development-static-sdk",
+  "release_qualified": false,
+  "profile": "windows-reference",
+  "build": {
+    "schema_version": 1,
+    "version": "0.1.0",
+    "build_fingerprint": "85a54c191c70c73cdf44f52e4e5a74c9ed6b7aa777448aa9fb22bd5e9cb1adbf",
+    "private_sdk_fingerprint": "",
+    "ncnn_commit": "7e36d25cb153092ba87a60530455c7376fedf452",
+    "glslang_commit": "780b6a209132dc74e99458f62ebe5fa7e57c41cf",
+    "build_options": "ncnn=7e36d25cb153092ba87a60530455c7376fedf452;glslang=780b6a209132dc74e99458f62ebe5fa7e57c41cf;patches=none;vulkan=OFF;openmp=OFF;stdio=ON;string=ON;cxx=17;compiler=MSVC-19.51.36247.0;target=Windows-AMD64;abi=;api=;ndk=;stl=;ptr=8;config=Release;sdk=0.1.0;with_ncnn=OFF;compiler_sha256=c9327f10974a1fa15f503ffd8b52c2b0b20735aa6c56d41134f77ff96608399b;cflags=/DWIN32 /D_WINDOWS;cxxflags=/DWIN32 /D_WINDOWS /EHsc;release_cxxflags=/O2 /Ob2 /DNDEBUG;private_headers=2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42-8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf",
+    "runtime_compiler_policy": "retained in Vulkan builds; no-runtime profile unsupported",
+    "device_qualification": "NOT_RUN"
+  },
+  "files": [
+    {
+      "path": "include/meguviz/compute.h",
+      "size": 8879,
+      "sha256": "7091507589a1f16b473d6832c67436e6a323c87d2a2c38338442ea04abb60c60"
+    },
+    {
+      "path": "include/meguviz/compute_android.h",
+      "size": 1194,
+      "sha256": "86c1646eb2f6220af01fc521a8b05e4c0fb088ab37a2df8dc99d11de0128d2b4"
+    },
+    {
+      "path": "include/meguviz/kernels.h",
+      "size": 1329,
+      "sha256": "f4526da6a6885fc97a14d3274518ed06467b77992f08cd75cd0341ea51f8e8b0"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/build-info.json",
+      "size": 1049,
+      "sha256": "f796dfda033f4b98ce085b371aabdfcfafd4bf913cc20c4a32e06c12bb6292fa"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfig.cmake",
+      "size": 1833,
+      "sha256": "89ac4e4f1b399e828129ef0d3d31c5721d6e927eaa2bc7b3c4d3314db8f7cc16"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeConfigVersion.cmake",
+      "size": 2827,
+      "sha256": "c626df80d51f26a450ee36ae47e466121b32f0a9a98894687c0b7edc332170c4"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets-release.cmake",
+      "size": 918,
+      "sha256": "5b4d60522c03e87cbb872631108306d3bbdd4cd3864f935c66eea1ac1634fe09"
+    },
+    {
+      "path": "lib/cmake/MeguvizCompute/MeguvizComputeTargets.cmake",
+      "size": 4547,
+      "sha256": "23c9cc2c6af43cafa4a89fe2438e01f0adad8f891218d08a974115e563ba1c66"
+    },
+    {
+      "path": "lib/meguviz_compute_core.lib",
+      "size": 589496,
+      "sha256": "0f3ad0fd75af920b6b19601205a15733416279cb4cd246ccf710724f149ff7c0"
+    },
+    {
+      "path": "share/MeguvizCompute/LICENSE",
+      "size": 1071,
+      "sha256": "de0ff48d4a5e2df2299de5c3233091567f5112dcc48c7593e98d77db543591a1"
+    },
+    {
+      "path": "share/MeguvizCompute/ncnn.lock.json",
+      "size": 454,
+      "sha256": "085e0bf62860d25c7becc808e4e445269f264e8fc511467fc986d0e7e172c5db"
+    },
+    {
+      "path": "share/MeguvizCompute/NOTICE.md",
+      "size": 425,
+      "sha256": "38a0d81b27a11d909f9a42ffc849b17815ba86344c10bef79e7811738527d44e"
+    },
+    {
+      "path": "share/MeguvizCompute/SBOM.json",
+      "size": 744,
+      "sha256": "d2683a39f2b75826ec4200947f1aa7ca98e343c617451bb593d75cddf66d4e1b"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/shaderpack.schema.json",
+      "size": 4154,
+      "sha256": "e18d92e7ef67961412e48c4c7774ad9fa4c3977855b1db9e81051b89691a83df"
+    },
+    {
+      "path": "share/MeguvizCompute/shaderpack/source.lock.json",
+      "size": 202,
+      "sha256": "38221d4c4883ff5a4949debe84718cbb19989da8c75443ba6938729efbaf5284"
+    }
+  ],
+  "evidence": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100",
+  "test_result": "PASS",
+  "gpu_result": "INCONCLUSIVE - no device execution"
+}

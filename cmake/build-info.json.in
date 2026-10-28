@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": "@PROJECT_VERSION@",
+  "build_fingerprint": "@MGC_BUILD_FINGERPRINT@",
+  "private_sdk_fingerprint": "@MGC_PRIVATE_FINGERPRINT@",
+  "ncnn_commit": "@MGC_NCNN_COMMIT@",
+  "glslang_commit": "@MGC_GLSLANG_COMMIT@",
+  "build_options": "@MGC_BUILD_OPTIONS@",
+  "runtime_compiler_policy": "retained in Vulkan builds; no-runtime profile unsupported",
+  "device_qualification": "NOT_RUN"
+}

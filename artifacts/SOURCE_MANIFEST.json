@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "scope": "final implementation/docs snapshot; generated ARTIFACTS and evidence excluded",
+  "files": [
+    {
+      "path": ".clang-format",
+      "size": 142,
+      "sha256": "a21b18c9fa92d41456969028f95f2dfd3c54f3b44af10e4ba4f39561827c337a"
+    },
+    {
+      "path": ".gitignore",
+      "size": 138,
+      "sha256": "a4c2526d16abf18e8a181208b734d24a2b7b88f2243dfad59af981237f353c59"
+    },
+    {
+      "path": "cmake/build-info.json.in",
+      "size": 430,
+      "sha256": "50c810eb1aa6bcad88054c967993d61182aca77d47ddcccc2fd6f5cd7b60b2af"
+    },
+    {
+      "path": "cmake/MeguvizComputeConfig.cmake.in",
+      "size": 974,
+      "sha256": "17b4415035d5cf53287130b7528102d290ab29f7a0262caa34038fce260fe1c0"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "size": 12352,
+      "sha256": "f33653d5eafdc7005b3e3786d1628e9cef510ef350a04e74684f2b193833dd28"
+    },
+    {
+      "path": "CMakePresets.json",
+      "size": 3141,
+      "sha256": "4b9debab7b52cb5f3c064b58e2b3df154bfdde4df57484ebb10a41d2b199e2a6"
+    },
+    {
+      "path": "docs/adr/001-development-scope.md",
+      "size": 1601,
+      "sha256": "7286f31a8e4bdef01d8497f62c578172c35461d8e284a8c007af79622807a29d"
+    },
+    {
+      "path": "examples/c_consumer.c",
+      "size": 2117,
+      "sha256": "487426c2e72732808cc657a00faa671521a02d9857643ada1032f4b59ac23a6a"
+    },
+    {
+      "path": "examples/consumer_common.h",
+      "size": 2588,
+      "sha256": "048af091c7650a0b60e76a346edcad2538ab8e092bda79d84fc6fe67c97c3fd6"
+    },
+    {
+      "path": "examples/headless.cpp",
+      "size": 3244,
+      "sha256": "e08643f886182844890c13e9dddf0a6355e03d679a3b012816da74184968bd0f"
+    },
+    {
+      "path": "examples/ncnn_c_graph.c",
+      "size": 2211,
+      "sha256": "c9e60140f8f6a390147be772deab6e1b7612e887703190e3fd1bfe6c43abe755"
+    },
+    {
+      "path": "examples/tensor_statistics.c",
+      "size": 2735,
+      "sha256": "544c5d3dc22e4da0cb263107e6fe3e1b8d48acd0ce0a7d69c08de2b058a8bc8d"
+    },
+    {
+      "path": "include/meguviz/compute.h",
+      "size": 8879,
+      "sha256": "7091507589a1f16b473d6832c67436e6a323c87d2a2c38338442ea04abb60c60"
+    },
+    {
+      "path": "include/meguviz/compute_android.h",
+      "size": 1194,
+      "sha256": "86c1646eb2f6220af01fc521a8b05e4c0fb088ab37a2df8dc99d11de0128d2b4"
+    },
+    {
+      "path": "include/meguviz/kernels.h",
+      "size": 1329,
+      "sha256": "f4526da6a6885fc97a14d3274518ed06467b77992f08cd75cd0341ea51f8e8b0"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1071,
+      "sha256": "de0ff48d4a5e2df2299de5c3233091567f5112dcc48c7593e98d77db543591a1"
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 425,
+      "sha256": "38a0d81b27a11d909f9a42ffc849b17815ba86344c10bef79e7811738527d44e"
+    },
+    {
+      "path": "private/meguviz/backend_ncnn_sdk.hpp",
+      "size": 746,
+      "sha256": "2dada93150f0c5c4c00b74ec394b98578eb97ef70fa0c511cc479da71b804c42"
+    },
+    {
+      "path": "private/meguviz/compute_job.h",
+      "size": 1222,
+      "sha256": "8d7b765b0fd89d3e8145f105b7dfb358b1bb40bfb6fe3c5d1cb3a78970da9bbf"
+    },
+    {
+      "path": "README.md",
+      "size": 4576,
+      "sha256": "16c5da0f34e5ea7e7449e9b905f99316a7dc2e8031e70a9efafa816446e46f6b"
+    },
+    {
+      "path": "schemas/shaderpack/shaderpack.schema.json",
+      "size": 4154,
+      "sha256": "e18d92e7ef67961412e48c4c7774ad9fa4c3977855b1db9e81051b89691a83df"
+    },
+    {
+      "path": "schemas/shaderpack/source.lock.json",
+      "size": 202,
+      "sha256": "38221d4c4883ff5a4949debe84718cbb19989da8c75443ba6938729efbaf5284"
+    },
+    {
+      "path": "src/core/runtime.cpp",
+      "size": 39222,
+      "sha256": "e3cd528d191468267dae1720955cb2193c9d9b8e3ba9f4b432dccacdecdc705d"
+    },
+    {
+      "path": "src/kernels/affine_f32/affine.comp",
+      "size": 436,
+      "sha256": "e7259761451c78624a2a726638da0775b4359f25de1e410a71f62e1ba08863f5"
+    },
+    {
+      "path": "src/kernels/affine_f32/request.json",
+      "size": 1016,
+      "sha256": "42edf605d69eac292d2e3d71363ef75aca65be496dd096fb6d67a679f95610de"
+    },
+    {
+      "path": "STATUS.json",
+      "size": 9886,
+      "sha256": "668c53cc9764cb2dfcbc130e7169c7b2430a1d49dbdda9439d5ded1ffa4c1395"
+    },
+    {
+      "path": "tests/core_conformance.c",
+      "size": 4230,
+      "sha256": "988b10522c85bf53b49717eeb5664ea8f6385dde39f0a832e7a391cb55ba4497"
+    },
+    {
+      "path": "tests/lifecycle.cpp",
+      "size": 7545,
+      "sha256": "c62d65b5b4a41b3108f53422f80ebdaa60a1e4e0b58bb8f036e9ed71995fcddd"
+    },
+    {
+      "path": "third_party/locks/ncnn.lock.json",
+      "size": 454,
+      "sha256": "085e0bf62860d25c7becc808e4e445269f264e8fc511467fc986d0e7e172c5db"
+    },
+    {
+      "path": "third_party/SBOM.json",
+      "size": 744,
+      "sha256": "d2683a39f2b75826ec4200947f1aa7ca98e343c617451bb593d75cddf66d4e1b"
+    },
+    {
+      "path": "tools/artifact_check.py",
+      "size": 8181,
+      "sha256": "dd2fb7eee13cbc399e2a33b686f86a32931ad569a6b3ebd78802c5e254da4f43"
+    },
+    {
+      "path": "tools/build_host.cmd",
+      "size": 629,
+      "sha256": "1c61325bae47b83410f203ccbee317fd38c2ad29298d476456cb088e34050815"
+    },
+    {
+      "path": "tools/run_android_cpu.py",
+      "size": 5643,
+      "sha256": "16784d5f8e03e09f6c79d745950d4d962d531bddba23d8e2dcdcebc5de1a80d5"
+    },
+    {
+      "path": "tools/verify_android_sdk.py",
+      "size": 5922,
+      "sha256": "52968b98fa71c8bf4d4c91f22f416e70093ff9fde1493e8e0dd6c405a3092981"
+    },
+    {
+      "path": "tools/verify_development_sdk.py",
+      "size": 6800,
+      "sha256": "d9582ed94bceed3dc36ed77eaf395cf242ad765b642be8ebc94ff4d220d245c8"
+    },
+    {
+      "path": "tools/verify_upstream_patches.py",
+      "size": 1969,
+      "sha256": "480ca4f2176bffad76dce4b9e359290a5c4e596c41716fa91c1c4909a5f9d168"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    }
+  ]
+}

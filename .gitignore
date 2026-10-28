@@ -1,0 +1,10 @@
+build/
+CMakeUserPresets.json
+*.param
+*.bin
+*.onnx
+*.pth
+*.log
+__pycache__/
+!artifacts/raw/**/*.log
+!artifacts/failures/**/*.log

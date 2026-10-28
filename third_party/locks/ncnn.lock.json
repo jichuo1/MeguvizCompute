@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "ncnn": {
+    "repository": "https://github.com/Tencent/ncnn",
+    "commit": "7e36d25cb153092ba87a60530455c7376fedf452",
+    "version": "20261020"
+  },
+  "glslang": {
+    "repository": "https://github.com/nihui/glslang",
+    "commit": "780b6a209132dc74e99458f62ebe5fa7e57c41cf"
+  },
+  "patches": [],
+  "private_sdk_revision": "0.1.0",
+  "runtime_compiler": "retained for Vulkan",
+  "models_in_package": false
+}

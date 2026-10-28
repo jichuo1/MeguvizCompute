@@ -1,0 +1,1 @@
+{"provider":"ncnn-cpu","effective_options":{"vulkan":false,"packing":false,"fp16_storage":false,"fp16_arithmetic":false,"num_threads":1},"synthetic_graph":"conv1x1_customscale","oracle":"PASS","private_sdk_fingerprint":"12197af5a1ee2400a780efb43e77a0415dc6d9494efc04e11c130ecdb0da36be"}

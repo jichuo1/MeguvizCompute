@@ -1,0 +1,8 @@
+[1/8] Building C object CMakeFiles\public_c.dir\c_consumer.c.obj
+[2/8] Building C object CMakeFiles\statistics.dir\tensor_statistics.c.obj
+[3/8] Building C object CMakeFiles\public_graph.dir\ncnn_c_graph.c.obj
+[4/8] Linking CXX executable public_c.exe
+[5/8] Linking CXX executable statistics.exe
+[6/8] Linking CXX executable public_graph.exe
+[7/8] Building CXX object CMakeFiles\private_graph.dir\headless.cpp.obj
+[8/8] Linking CXX executable private_graph.exe

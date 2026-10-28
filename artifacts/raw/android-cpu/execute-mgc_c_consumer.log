@@ -1,0 +1,1 @@
+PASS public C COPY, consumer output survives session close

@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "scope": "host shader artifact producer/consumer bytes and ncnn static ABI only",
+  "binary": {
+    "path": "D:\\MeguvizPack\\MeguvizShaderTools\\out\\install\\windows-x86_64-rc1\\bin\\mgst.exe",
+    "sha256": "bd125c90107cb4787854bed4197bfc3a6770530e3d8e62aaeb15e634c21ce763"
+  },
+  "toolchain_lock_hash": "e34e0f97360162c31b7c1bc0fe8a726e4e2a8a9b6f253dd3e12ae4186a61d1af",
+  "manifest": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\pack\\manifest.json",
+  "independent_report": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\independent-check.json",
+  "negative_results": [
+    "variant miss rejected",
+    "Options mismatch rejected",
+    "name-stripped but rehashed SPIR-V rejected"
+  ],
+  "runtime_pipeline": "NOT_IMPLEMENTED",
+  "gpu_numeric": "NOT_RUN"
+}

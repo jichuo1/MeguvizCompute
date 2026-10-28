@@ -1,0 +1,109 @@
+[
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--preset",
+      "windows-reference"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\configure.log",
+    "log_sha256": "79d8f66f75357538498b4af234a74652ae977a9a6b93dfeca99c0dc5cccdf8ff"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "--preset",
+      "windows-reference"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\build.log",
+    "log_sha256": "9fec2bb11bc6a1b0110447b4ba3d8bd0ef5aac117fc60f5fa9f6f8a5d98b80b7"
+  },
+  {
+    "name": "test",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--preset",
+      "windows-reference",
+      "--output-junit",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\ctest.xml"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\test.log",
+    "log_sha256": "8fb02a256838f8df8220b1d792cdc36d5664862f61c734799d5c876b1a6b551a"
+  },
+  {
+    "name": "install",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\windows-reference",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-reference"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\install.log",
+    "log_sha256": "615e774831b54a0b537fa854365ab2ba7ff49f2dbf9cb09ba4c13b17c36856b7"
+  },
+  {
+    "name": "external-configure",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-source",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\windows-reference"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-configure.log",
+    "log_sha256": "bf5972eca8d4796fa496242c290968681c514638f7d162c2477d5a246ea65227"
+  },
+  {
+    "name": "external-build",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-build",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-build.log",
+    "log_sha256": "f82ea39f73ee4ffecaa9c2179b8a4f84de0817f4e65c71af4fa6442e6fed8361"
+  },
+  {
+    "name": "external-test",
+    "argv": [
+      "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--test-dir",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-build",
+      "--output-on-failure",
+      "--output-junit",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-ctest.xml"
+    ],
+    "cwd": "D:\\MeguvizPack\\MeguvizCompute",
+    "exit_code": 0,
+    "expected_exit": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\external-test.log",
+    "log_sha256": "32fc7ec86a71ba425d3b1386370677083af9e8264b866462f77b3236035dc7a1"
+  }
+]

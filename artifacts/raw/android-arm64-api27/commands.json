@@ -1,0 +1,90 @@
+[
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--preset",
+      "android-arm64-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\configure.log",
+    "log_sha256": "afcc39f70898bb0ace698c47871deb4c74c6c0836f7da2ee9b37cb495a8cfbc7"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "--preset",
+      "android-arm64-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\build.log",
+    "log_sha256": "7716162f3cd3b99cf3b8a8dd6decf324e08c7e941aae7e730baba5e4fc8c075b"
+  },
+  {
+    "name": "install",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-arm64-api27",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\install.log",
+    "log_sha256": "ac26bffaf6ae44af44f729697c0a55f170b695b4932f6c3daecebff6aea2ffce"
+  },
+  {
+    "name": "external-configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-source",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "-DANDROID_ABI=arm64-v8a",
+      "-DANDROID_PLATFORM=android-27",
+      "-DANDROID_STL=c++_static",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27",
+      "-DCMAKE_FIND_ROOT_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27",
+      "-DMeguvizCompute_DIR=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-arm64-api27\\lib\\cmake\\MeguvizCompute",
+      "-DMGC_REQUIRED_PRIVATE_SDK_FINGERPRINT=a604931188ed2bcc19165aaa8cfeb8af32e23a522e0e9caa8387923f310fa38c"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-configure.log",
+    "log_sha256": "4b5b1c2cd0405c88ca778ef0cf08aabb82a4c6bb6650b73a544806e3768fa52f"
+  },
+  {
+    "name": "external-build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-build",
+      "--parallel",
+      "4"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-build.log",
+    "log_sha256": "aabba058436878bb55f40d055d1ad56d4e6aa3f1f7cf6a0d9d8294a00a1ae904"
+  },
+  {
+    "name": "elf",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-readelf.exe",
+      "--file-header",
+      "--program-headers",
+      "--dynamic",
+      "--dyn-syms",
+      "--wide",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\external-build\\libcompute_closure.so"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\elf.log",
+    "log_sha256": "94cd797fa15fc5c196639e39dba27ce11dd4148d9e63f7a2036806f6ea912170"
+  }
+]

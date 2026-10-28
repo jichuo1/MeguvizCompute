@@ -1,0 +1,25 @@
+Test project D:/MeguvizPack/MeguvizCompute/build/windows-cpu
+    Start 1: public_c_copy
+1/6 Test #1: public_c_copy ....................   Passed    0.49 sec
+    Start 2: public_core_conformance
+2/6 Test #2: public_core_conformance ..........   Passed    0.53 sec
+    Start 3: lifecycle
+3/6 Test #3: lifecycle ........................   Passed    0.99 sec
+    Start 4: tensor_statistics
+4/6 Test #4: tensor_statistics ................   Passed    0.54 sec
+    Start 5: ncnn_public_c_graph
+5/6 Test #5: ncnn_public_c_graph ..............   Passed    0.52 sec
+    Start 6: ncnn_synthetic_graph
+6/6 Test #6: ncnn_synthetic_graph .............   Passed    0.08 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Label Time Summary:
+abi          =   1.54 sec*proc (3 tests)
+bootstrap    =   0.49 sec*proc (1 test)
+consumer     =   2.17 sec*proc (5 tests)
+kernels      =   0.54 sec*proc (1 test)
+lifecycle    =   1.52 sec*proc (2 tests)
+provider     =   0.60 sec*proc (2 tests)
+
+Total Test time (real) =   3.16 sec

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "logical_shader_id": "meguviz-compute/affine_f32",
+  "owner": {
+    "repository": "MeguvizCompute",
+    "revision": "development-source-snapshot"
+  },
+  "source": {
+    "path": "affine.comp",
+    "sha256": "e7259761451c78624a2a726638da0775b4359f25de1e410a71f62e1ba08863f5"
+  },
+  "includes": [],
+  "profile_id": "ncnn-compat",
+  "profile_version": "20261020",
+  "entry_point": "main",
+  "target_env": "vulkan1.0",
+  "effective_options": {},
+  "numeric_profile": "reference-fp32",
+  "toolchain_lock_hash": "a63e6cd679f4c9bd1ce1ac0ae7a1519d1bc26963826cdcc1b7a7098957ef2855",
+  "required_flags": [],
+  "optimization_passes": [],
+  "resource_recipe": "ncnn-20261020",
+  "ncnn_revision": "7e36d25cb153092ba87a60530455c7376fedf452",
+  "target_facts": {
+    "provenance": "synthetic",
+    "maintenance4_enabled": false,
+    "support_fp16_storage": false,
+    "shader_int64": false,
+    "shader_int16": false,
+    "moltenvk": false,
+    "device_defines": []
+  }
+}

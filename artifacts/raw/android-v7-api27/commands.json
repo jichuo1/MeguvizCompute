@@ -1,0 +1,90 @@
+[
+  {
+    "name": "configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--preset",
+      "android-v7-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\configure.log",
+    "log_sha256": "dbddaa9f11c059001ac63a95b20bc1ec1fe17dfb3e6eac4bba96ce6f765bedf8"
+  },
+  {
+    "name": "build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "--preset",
+      "android-v7-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\build.log",
+    "log_sha256": "7716162f3cd3b99cf3b8a8dd6decf324e08c7e941aae7e730baba5e4fc8c075b"
+  },
+  {
+    "name": "install",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--install",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\android-v7-api27",
+      "--prefix",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-v7-api27"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\install.log",
+    "log_sha256": "61848700ee151ce79f74ea8df77ee6970618101f715c32182ad1aac0ff1fd889"
+  },
+  {
+    "name": "external-configure",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "-S",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-source",
+      "-B",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "-DANDROID_ABI=armeabi-v7a",
+      "-DANDROID_PLATFORM=android-27",
+      "-DANDROID_STL=c++_static",
+      "-DCMAKE_PREFIX_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-v7-api27",
+      "-DCMAKE_FIND_ROOT_PATH=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-v7-api27",
+      "-DMeguvizCompute_DIR=D:\\MeguvizPack\\MeguvizCompute\\build\\install\\android-v7-api27\\lib\\cmake\\MeguvizCompute",
+      "-DMGC_REQUIRED_PRIVATE_SDK_FINGERPRINT=2c82ca7b808aa2bb27748a452a57c78c3bfb9700042b7104ad2a58e8aaba9e8c"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-configure.log",
+    "log_sha256": "86b36240a8f80c2455d9af3cf8f6e90136047c1375f1c727f265270dc3a47160"
+  },
+  {
+    "name": "external-build",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\cmake.exe",
+      "--build",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-build",
+      "--parallel",
+      "4"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-build.log",
+    "log_sha256": "aabba058436878bb55f40d055d1ad56d4e6aa3f1f7cf6a0d9d8294a00a1ae904"
+  },
+  {
+    "name": "elf",
+    "argv": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-readelf.exe",
+      "--file-header",
+      "--program-headers",
+      "--dynamic",
+      "--dyn-syms",
+      "--wide",
+      "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\external-build\\libcompute_closure.so"
+    ],
+    "exit_code": 0,
+    "log": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\elf.log",
+    "log_sha256": "04a48e9319dcdf05afd9fd64d63a7e305223268bbf64db70f360c3263e7c36b0"
+  }
+]

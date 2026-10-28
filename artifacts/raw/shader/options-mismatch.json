@@ -1,0 +1,5 @@
+{
+  "result": "FAIL",
+  "scope": "host_artifact_integrity",
+  "reason": "effective Options mismatch"
+}

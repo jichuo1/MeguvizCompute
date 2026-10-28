@@ -1,0 +1,20 @@
+Test project D:/MeguvizPack/MeguvizCompute/build/windows-reference
+    Start 1: public_c_copy
+1/4 Test #1: public_c_copy ....................   Passed    0.95 sec
+    Start 2: public_core_conformance
+2/4 Test #2: public_core_conformance ..........   Passed    0.61 sec
+    Start 3: lifecycle
+3/4 Test #3: lifecycle ........................   Passed    0.62 sec
+    Start 4: tensor_statistics
+4/4 Test #4: tensor_statistics ................   Passed    0.95 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Label Time Summary:
+abi          =   1.56 sec*proc (2 tests)
+bootstrap    =   0.95 sec*proc (1 test)
+consumer     =   2.51 sec*proc (3 tests)
+kernels      =   0.95 sec*proc (1 test)
+lifecycle    =   1.22 sec*proc (2 tests)
+
+Total Test time (real) =   3.14 sec

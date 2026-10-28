@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="4"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="3"
+	timestamp="2026-10-28T15:57:39"
+	>
+	<testcase name="public_c_copy" classname="public_c_copy" time="0.953404" status="run">
+		<properties>
+			<property name="cmake_labels" value="abi;bootstrap;consumer"/>
+		</properties>
+		<system-out>PASS public C COPY, consumer output survives session close
+</system-out>
+	</testcase>
+	<testcase name="public_core_conformance" classname="public_core_conformance" time="0.606688" status="run">
+		<properties>
+			<property name="cmake_labels" value="abi;consumer;lifecycle"/>
+		</properties>
+		<system-out>{"scope":"production_cpu_public_abi","result":"PASS","old_size":true,"reject_preserves_input":true,"copy":true,"callback_once":true,"owned_output_survives":true}
+</system-out>
+	</testcase>
+	<testcase name="lifecycle" classname="lifecycle" time="0.616347" status="run">
+		<properties>
+			<property name="cmake_labels" value="lifecycle"/>
+		</properties>
+		<system-out>PASS bounded queue, cancel, late callback, continued drain, retained map, domain mismatch, budget, second session
+</system-out>
+	</testcase>
+	<testcase name="tensor_statistics" classname="tensor_statistics" time="0.952555" status="run">
+		<properties>
+			<property name="cmake_labels" value="consumer;kernels"/>
+		</properties>
+		<system-out>PASS independent tensor statistics and normalization
+</system-out>
+	</testcase>
+</testsuite>

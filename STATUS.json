@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "project": "MeguvizCompute",
+  "profile": "bil-rife-ncnn-android",
+  "target_gate": "C6",
+  "status": "BLOCKED",
+  "qualification": "INCONCLUSIVE",
+  "updated_at_utc": "2026-10-28T07:57:04.491522+00:00",
+  "gates": [
+    {
+      "id": "C0",
+      "status": "DONE",
+      "result": "PASS",
+      "scope": "Windows CPU/reference and Android arm64/v7 API27 reproducible build/install inputs; exact unpatched ncnn/glslang source locks",
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+          "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\package-manifest.json",
+          "sha256": "aee95195d17fc9dfd60cf8fe1bc736ec2c669dcf8bf444bda02480da934dc024"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\package-manifest.json",
+          "sha256": "b812dc86793e02c2e45b0b798fa9416f08b3b0845d529515cf5199bdaa7ffab1"
+        },
+        {
+          "path": "build/reports/upstream-verification.json"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed": [
+        "Public C ABI resources, content leases, bounded worker tickets and physical retirement callbacks",
+        "Accepted/rejected ownership, cancel/continued drain, backpressure, two sessions, owned-output survival and budget errors tested",
+        "Real ncnn CPU Input/ReLU through public C resource/ticket API and synthetic Conv1x1/custom-op via private SDK",
+        "Six host tests plus four installed consumers; SDK mismatch and duplicate ncnn negatives reject",
+        "Six native CPU programs run on fingerprinted API34 x86_64 emulator with binary SHA readback"
+      ],
+      "not_implemented_or_unqualified": [
+        "GPU image/tensor resource views and same-domain GPU kernel-to-NN vertical slice",
+        "Real GPU oracle, strict-GPU/effective Options and hidden-submit batch trace qualification"
+      ],
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+          "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\result.json",
+          "sha256": "b0a081b22dbbb7f1af232de75c97fb5db1af7264ce14c9cb62bf71c18ed276b3"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed": [
+        "Pinned Android API27 ncnn with Vulkan/AHB symbols and runtime glslang cross-built for both ARM ABIs"
+      ],
+      "not_implemented": [
+        "AHB import resource adapter, HOST_WAIT external layout/ownership barrier bridge",
+        "normalize/pad/reduce to same-domain GPU graph/output image chain",
+        "Independent delayed producer/consumer AHB probes"
+      ],
+      "hardware_missing": [
+        "Physical ARM Adreno/Mali devices"
+      ],
+      "fallback": "mgc_android_import and release-fence export explicitly return UNSUPPORTED_CAPABILITY; CPU/legacy bridge remains available",
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\package-manifest.json",
+          "sha256": "aee95195d17fc9dfd60cf8fe1bc736ec2c669dcf8bf444bda02480da934dc024"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\package-manifest.json",
+          "sha256": "b812dc86793e02c2e45b0b798fa9416f08b3b0845d529515cf5199bdaa7ffab1"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "reason": "C2 prerequisites unresolved",
+      "not_implemented": [
+        "external_semaphore_fd device-creation patch and native sync_fd roundtrip",
+        "seal/submit/poll/finalize/reset async patch and hidden-batch retirement trace"
+      ],
+      "patch_ledger": "No ncnn patches applied; no FINAL_SUBMIT_ASYNC/FULL_RECORD_ASYNC/SYNC_FD capability advertised",
+      "evidence": []
+    },
+    {
+      "id": "C4",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed": [
+        "Owner-sourced affine FP32 shader compiled and reproduced with pinned mgst",
+        "Locked ShaderTools shaderpack schema snapshot",
+        "Independent exact SPV/reflection bytes, static ncnn ABI, variant/Options miss and name-strip negative checks"
+      ],
+      "not_implemented": [
+        "Runtime shaderpack loader and artifact-to-pipeline integration",
+        "Device pipeline/prepared/probe cache integration and cold/warm device evidence",
+        "GPU timestamps and one-variable A/B optimizations"
+      ],
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\summary.json",
+          "sha256": "dfe591a01c8e05a3f0f2372cdb240694fea4d7b44298ce8096d1c0c08e836aef"
+        }
+      ],
+      "prior_failure": "build/reports/shader/independent-check.json preserved producer reflection hash failure; corrected stable tool independently reverified"
+    },
+    {
+      "id": "C5",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed": [
+        "Independent tensor_statistics/normalization client via public C ABI",
+        "Host and Android emulator CPU runs; arm64/v7 external static link consumers"
+      ],
+      "missing": [
+        "Physical GPU/driver and 4KB/16KB runtime matrix",
+        "Sustained thermal/memory/device-lost qualification and second GPU consumer"
+      ],
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+          "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\result.json",
+          "sha256": "b0a081b22dbbb7f1af232de75c97fb5db1af7264ce14c9cb62bf71c18ed276b3"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "status": "BLOCKED",
+      "result": "INCONCLUSIVE",
+      "completed": [
+        "Development static SDK installs with headers, CMake closure, exact fingerprints, licenses and per-file manifests",
+        "Independent public/private installed consumers and mismatch/duplicate-ncnn negatives",
+        "ARM64/v7 development DSO link fixtures: public mgc symbols only, static C++ closure, ELF LOAD alignment >=16KiB"
+      ],
+      "missing": [
+        "C2-C5 selected profile qualification",
+        "Final Media/RIFE official composition qualification and release support matrix"
+      ],
+      "release_qualified": false,
+      "evidence": [
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+          "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\package-manifest.json",
+          "sha256": "aee95195d17fc9dfd60cf8fe1bc736ec2c669dcf8bf444bda02480da934dc024"
+        },
+        {
+          "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\package-manifest.json",
+          "sha256": "b812dc86793e02c2e45b0b798fa9416f08b3b0845d529515cf5199bdaa7ffab1"
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "windows-cpu": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-cpu-1793174300839020100\\package-manifest.json",
+      "sha256": "c12cfc1becf4bdbed749f4502ce7a803a6ac239b1348d43045682d47efc5e384"
+    },
+    "android-arm64-api27": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-arm64-api27-1793174345199982500\\package-manifest.json",
+      "sha256": "aee95195d17fc9dfd60cf8fe1bc736ec2c669dcf8bf444bda02480da934dc024"
+    },
+    "android-v7-api27": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-android-v7-api27-1793174354558044400\\package-manifest.json",
+      "sha256": "b812dc86793e02c2e45b0b798fa9416f08b3b0845d529515cf5199bdaa7ffab1"
+    },
+    "android-cpu": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\android-cpu-emulator-5732-1793173906140255000\\result.json",
+      "sha256": "b0a081b22dbbb7f1af232de75c97fb5db1af7264ce14c9cb62bf71c18ed276b3"
+    },
+    "shader": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\shader-fixed-1793174093279797400\\summary.json",
+      "sha256": "dfe591a01c8e05a3f0f2372cdb240694fea4d7b44298ce8096d1c0c08e836aef"
+    },
+    "windows-reference": {
+      "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\package-manifest.json",
+      "sha256": "a9480e61c1b1c17f047ad8384a21e5673c06a8ddecdbffd8abe387231fa63ab6"
+    }
+  },
+  "performance_claims": [],
+  "remote_publication": "NOT_PERFORMED",
+  "models_in_package": false,
+  "rollback_evidence": {
+    "path": "D:\\MeguvizPack\\MeguvizCompute\\build\\reports\\sdk-windows-reference-1793174258134134100\\package-manifest.json",
+    "sha256": "a9480e61c1b1c17f047ad8384a21e5673c06a8ddecdbffd8abe387231fa63ab6"
+  }
+}
