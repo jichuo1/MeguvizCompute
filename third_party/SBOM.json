@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "product": "MeguvizCompute",
+  "version": "0.1.0-development",
+  "components": [
+    {
+      "name": "MeguvizCompute",
+      "license": "MIT",
+      "source": "local implementation"
+    },
+    {
+      "name": "ncnn",
+      "commit": "7e36d25cb153092ba87a60530455c7376fedf452",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/Tencent/ncnn"
+    },
+    {
+      "name": "glslang",
+      "commit": "780b6a209132dc74e99458f62ebe5fa7e57c41cf",
+      "license": "See bundled upstream LICENSE.txt",
+      "scope": "Vulkan static runtime closure",
+      "source": "https://github.com/nihui/glslang"
+    }
+  ],
+  "research_weights_included": false,
+  "release_qualified": false
+}
